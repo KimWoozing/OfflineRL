@@ -1,5 +1,5 @@
 # Use CUDA base image with Python support
-FROM nvidia/cuda:12.6.0-cudnn-runtime-ubuntu22.04
+FROM nvidia/cuda:12.4.1-cudnn-runtime-ubuntu22.04
 
 # Set environment variables
 ENV DEBIAN_FRONTEND=noninteractive
@@ -34,8 +34,8 @@ COPY requirements.txt ./
 
 # Create .venv virtual environment with Python 3.10 and install dependencies
 # Install older Cython version first (mujoco_py requires Cython < 3.0)
-RUN uv venv .venv --python 3.10 && \
-    . .venv/bin/activate && \
+RUN uv venv /opt/venv --python 3.10 && \
+    . /opt/venv/bin/activate && \
     uv pip install -r requirements.txt
 
 # Supress D4RL warnings
@@ -45,12 +45,12 @@ ENV PYOPENGL_PLATFORM=osmesa
 ENV DISPLAY=""
 
 # Activate the virtual environment by default
-ENV PATH="/app/.venv/bin:${PATH}"
+ENV PATH="/opt/venv/bin:${PATH}"
 
 # Install MuJoCo 2.1.0 (required by mujoco-py/d4rl)
 RUN mkdir -p /root/.mujoco && \
     wget -q https://mujoco.org/download/mujoco210-linux-x86_64.tar.gz -O /tmp/mujoco.tar.gz && \
-    tar -xzf /tmp/mujoco.tar.gz -C /root/.mujoco && \
+    tar -xzf /tmp/mujoco.tar.gz --no-same-owner -C /root/.mujoco && \
     rm /tmp/mujoco.tar.gz
 
 # Set MuJoCo environment variables
