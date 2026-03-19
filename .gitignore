@@ -1,3 +1,5 @@
 wandb/
 dynamics_models/
 final_returns/
+logs/
+*.log

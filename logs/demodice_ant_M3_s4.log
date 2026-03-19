@@ -36,3 +36,19 @@ Union   : 1303587 transitions total
   self.pid = os.fork()
 /opt/venv/lib/python3.10/site-packages/tensorflow_probability/python/internal/backend/jax/ops.py:681: DeprecationWarning: jax.interpreters.xla.pytype_aval_mappings is deprecated.
   jax.interpreters.xla.pytype_aval_mappings[onp.ndarray])
+/opt/venv/lib/python3.10/site-packages/gym/spaces/box.py:84: UserWarning: [33mWARN: Box bound precision lowered by casting to float32[0m
+  logger.warn(f"Box bound precision lowered by casting to {self.dtype}")
+Step:    10000  |  score: 5.49 ± 4.29  |  actor_loss: -0.6352  cost_loss: 2.1640  nu_loss: 12.4457
+Step:    20000  |  score: 6.93 ± 0.70  |  actor_loss: -1.4916  cost_loss: 1.3608  nu_loss: 12.3836
+Step:    30000  |  score: 12.48 ± 11.23  |  actor_loss: -2.5657  cost_loss: 1.3115  nu_loss: 12.3959
+Step:    40000  |  score: 18.52 ± 31.98  |  actor_loss: -3.3189  cost_loss: 1.2285  nu_loss: 11.9440
+Step:    50000  |  score: 25.61 ± 35.16  |  actor_loss: -3.7560  cost_loss: 1.2120  nu_loss: 12.0016
+Step:    60000  |  score: 50.51 ± 35.38  |  actor_loss: -3.9324  cost_loss: 1.2340  nu_loss: 12.0567
+Step:    70000  |  score: 41.68 ± 40.12  |  actor_loss: -4.2029  cost_loss: 1.2019  nu_loss: 11.9425
+Step:    80000  |  score: 37.57 ± 34.31  |  actor_loss: -4.3403  cost_loss: 1.2295  nu_loss: 11.9639
+Step:    90000  |  score: 46.19 ± 39.05  |  actor_loss: -4.3652  cost_loss: 1.2020  nu_loss: 11.9352
+Step:   100000  |  score: 36.75 ± 16.90  |  actor_loss: -3.6146  cost_loss: 1.2116  nu_loss: 11.9952
+Step:   110000  |  score: 33.82 ± 16.28  |  actor_loss: -4.3312  cost_loss: 1.2423  nu_loss: 12.0228
+Step:   120000  |  score: 34.44 ± 33.67  |  actor_loss: -4.9268  cost_loss: 1.2268  nu_loss: 12.0315
+Step:   130000  |  score: 60.75 ± 42.91  |  actor_loss: -4.6668  cost_loss: 1.2097  nu_loss: 11.9210
+Step:   140000  |  score: 69.24 ± 43.11  |  actor_loss: -4.7160  cost_loss: 1.1915  nu_loss: 11.9659
