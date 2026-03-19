@@ -1,0 +1,278 @@
+Warning: All of online environments libraries in D4RL have been moved ]8;;https://github.com/Farama-Foundation/Gymnasium\Gymnasium]8;;\, ]8;;https://github.com/Farama-Foundation/MiniGrid\MiniGrid]8;;\ and ]8;;https://github.com/Farama-Foundation/Gymnasium-Robotics\Gymnasium-Robotics]8;;\, and all offline datasets in D4RL have been moved to ]8;;https://github.com/Farama-Foundation/Minari\Minari]8;;\.
+These new versions include large bug fixes, new versions of Python, and are where all new development will continue. Please upgrade these libraries as soon as you're able to do so.
+If you'd like to read more about the story behind this switch, please check out ]8;;https://farama.org/Announcing-Minari\this blog post]8;;\.
+Gym has been unmaintained since 2022 and does not support NumPy 2.0 amongst other critical functionality.
+Please upgrade to Gymnasium, the maintained drop-in replacement of Gym, or contact the authors of your software and request that they upgrade.
+See the migration guide at https://gymnasium.farama.org/introduction/migration_guide/ for additional information.
+/opt/venv/lib/python3.10/site-packages/Cython/Distutils/old_build_ext.py:15: DeprecationWarning: dep_util is Deprecated. Use functions from setuptools instead.
+  from distutils.dep_util import newer, newer_group
+<frozen importlib._bootstrap>:283: DeprecationWarning: the load_module() method is deprecated and slated for removal in Python 3.12; use exec_module() instead
+pybullet build time: Jan 29 2025 23:16:28
+wandb: [wandb.login()] Loaded credentials for https://api.wandb.ai from /root/.netrc.
+wandb: Currently logged in as: wsk208 to https://api.wandb.ai. Use `wandb login --relogin` to force relogin
+/opt/venv/lib/python3.10/site-packages/wandb/analytics/sentry.py:268: DeprecationWarning: Read the `app_url` setting from the appropriate Settings object.
+  app_url = wandb.util.app_url(tags["base_url"])  # type: ignore[index]
+/opt/venv/lib/python3.10/site-packages/wandb/analytics/sentry.py:279: DeprecationWarning: The `Scope.user` setter is deprecated in favor of `Scope.set_user()`.
+  self.scope.user = {"email": email}
+wandb: setting up run z4g6u6gf
+/opt/venv/lib/python3.10/site-packages/wandb/analytics/sentry.py:268: DeprecationWarning: Read the `app_url` setting from the appropriate Settings object.
+  app_url = wandb.util.app_url(tags["base_url"])  # type: ignore[index]
+/opt/venv/lib/python3.10/site-packages/wandb/analytics/sentry.py:279: DeprecationWarning: The `Scope.user` setter is deprecated in favor of `Scope.set_user()`.
+  self.scope.user = {"email": email}
+wandb: Tracking run with wandb version 0.25.1
+wandb: Run data is saved locally in /app/wandb/run-20260318_134313-z4g6u6gf
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run cdemodice_hopper_M4_s2
+wandb: ⭐️ View project at https://wandb.ai/wsk208/DemoDICE
+wandb: 🚀 View run at https://wandb.ai/wsk208/DemoDICE/runs/z4g6u6gf
+/opt/venv/lib/python3.10/site-packages/gym/spaces/box.py:84: UserWarning: [33mWARN: Box bound precision lowered by casting to float32[0m
+  logger.warn(f"Box bound precision lowered by casting to {self.dtype}")
+load datafile:   0%|          | 0/21 [00:00<?, ?it/s]load datafile:  10%|▉         | 2/21 [00:00<00:01, 17.70it/s]load datafile:  19%|█▉        | 4/21 [00:00<00:02,  6.04it/s]load datafile:  81%|████████  | 17/21 [00:00<00:00, 21.82it/s]load datafile:  95%|█████████▌| 20/21 [00:01<00:00, 16.76it/s]load datafile: 100%|██████████| 21/21 [00:01<00:00, 16.95it/s]
+Expert  :  999061 transitions  (hopper-expert-v2, 100 traj)
+load datafile:   0%|          | 0/9 [00:00<?, ?it/s]load datafile:  33%|███▎      | 3/9 [00:00<00:00,  8.93it/s]load datafile:  44%|████▍     | 4/9 [00:00<00:00,  6.47it/s]load datafile:  56%|█████▌    | 5/9 [00:00<00:00,  4.97it/s]load datafile:  67%|██████▋   | 6/9 [00:01<00:00,  4.29it/s]load datafile: 100%|██████████| 9/9 [00:01<00:00,  7.41it/s]
+Imperfect:   35054 transitions  (hopper-random-v2, 1600 traj)
+Union   : 1034115 transitions total
+/root/.local/share/uv/python/cpython-3.10-linux-x86_64-gnu/lib/python3.10/multiprocessing/popen_fork.py:66: RuntimeWarning: os.fork() was called. os.fork() is incompatible with multithreaded code, and JAX is multithreaded, so this will likely lead to a deadlock.
+  self.pid = os.fork()
+/opt/venv/lib/python3.10/site-packages/tensorflow_probability/python/internal/backend/jax/ops.py:681: DeprecationWarning: jax.interpreters.xla.pytype_aval_mappings is deprecated.
+  jax.interpreters.xla.pytype_aval_mappings[onp.ndarray])
+/opt/venv/lib/python3.10/site-packages/gym/spaces/box.py:84: UserWarning: [33mWARN: Box bound precision lowered by casting to float32[0m
+  logger.warn(f"Box bound precision lowered by casting to {self.dtype}")
+Step:    10000  |  score: 0.64 ± 0.01  |  actor_loss: 2.0818  cost_loss: 1.3701  q_loss: 0.0101  reward_max: 0.6291  reward_mean: 0.0031  reward_min: -0.4841  state_cost_loss: 1.3681  value_loss: -0.0262
+Step:    20000  |  score: 0.72 ± 0.01  |  actor_loss: 12.8034  cost_loss: 1.3726  q_loss: 37.3351  reward_max: 0.2352  reward_mean: -0.0136  reward_min: -0.7169  state_cost_loss: 1.3758  value_loss: 8791.5723
+Step:    30000  |  score: 0.70 ± 0.01  |  actor_loss: 13.5958  cost_loss: 1.3741  q_loss: 29.3376  reward_max: 0.2816  reward_mean: -0.0181  reward_min: -0.6032  state_cost_loss: 1.3746  value_loss: 1029642125312.0000
+Step:    40000  |  score: 0.71 ± 0.01  |  actor_loss: -0.6303  cost_loss: 1.3744  q_loss: 14.9409  reward_max: 0.5023  reward_mean: -0.0149  reward_min: -0.6148  state_cost_loss: 1.3748  value_loss: 8330536288256.0000
+Step:    50000  |  score: 0.71 ± 0.01  |  actor_loss: -8.8791  cost_loss: 1.3615  q_loss: 25.6274  reward_max: 0.4629  reward_mean: -0.0048  reward_min: -0.7161  state_cost_loss: 1.3647  value_loss: 1986161410048.0000
+Step:    60000  |  score: 0.69 ± 0.01  |  actor_loss: -14.0783  cost_loss: 1.3713  q_loss: 41.9211  reward_max: 0.3811  reward_mean: -0.0010  reward_min: -0.5759  state_cost_loss: 1.3712  value_loss: 28772009984.0000
+Step:    70000  |  score: 0.67 ± 0.01  |  actor_loss: -14.2184  cost_loss: 1.3629  q_loss: 18.2965  reward_max: 0.4797  reward_mean: -0.0006  reward_min: -0.7667  state_cost_loss: 1.3632  value_loss: 556869516680757248.0000
+Step:    80000  |  score: 0.68 ± 0.01  |  actor_loss: -10.1586  cost_loss: 1.3658  q_loss: 25.1503  reward_max: 0.3075  reward_mean: 0.0020  reward_min: -0.5686  state_cost_loss: 1.3666  value_loss: 56991903744.0000
+Step:    90000  |  score: 0.67 ± 0.00  |  actor_loss: -11.1364  cost_loss: 1.3639  q_loss: 87.5372  reward_max: 0.5215  reward_mean: 0.0052  reward_min: -1.2650  state_cost_loss: 1.3639  value_loss: 331297181459808256.0000
+Step:   100000  |  score: 0.68 ± 0.01  |  actor_loss: -24.4439  cost_loss: 1.3672  q_loss: 13.7382  reward_max: 0.2436  reward_mean: -0.0065  reward_min: -1.0893  state_cost_loss: 1.3707  value_loss: 7429651456.0000
+Step:   110000  |  score: 0.69 ± 0.01  |  actor_loss: -23.2036  cost_loss: 1.3698  q_loss: 7.8249  reward_max: 0.3093  reward_mean: -0.0046  reward_min: -0.7325  state_cost_loss: 1.3722  value_loss: 62870294528.0000
+Step:   120000  |  score: 0.68 ± 0.01  |  actor_loss: -13.1554  cost_loss: 1.3651  q_loss: 67.5809  reward_max: 0.3734  reward_mean: -0.0038  reward_min: -0.6581  state_cost_loss: 1.3680  value_loss: 200262189056.0000
+Step:   130000  |  score: 0.68 ± 0.01  |  actor_loss: -5.9516  cost_loss: 1.3673  q_loss: 21.0025  reward_max: 0.5116  reward_mean: -0.0100  reward_min: -1.3251  state_cost_loss: 1.3714  value_loss: 148338900992.0000
+Step:   140000  |  score: 0.66 ± 0.01  |  actor_loss: -16.7687  cost_loss: 1.3628  q_loss: 37.1032  reward_max: 0.4772  reward_mean: -0.0144  reward_min: -0.9677  state_cost_loss: 1.3632  value_loss: 313080020992.0000
+Step:   150000  |  score: 0.69 ± 0.01  |  actor_loss: -8.5326  cost_loss: 1.3643  q_loss: 107.6935  reward_max: 0.3588  reward_mean: -0.0146  reward_min: -1.0762  state_cost_loss: 1.3631  value_loss: 154979205120.0000
+Step:   160000  |  score: 0.73 ± 0.01  |  actor_loss: -17.3232  cost_loss: 1.3693  q_loss: 14.5966  reward_max: 0.4055  reward_mean: 0.0008  reward_min: -0.6321  state_cost_loss: 1.3702  value_loss: 15088140653953024.0000
+Step:   170000  |  score: 0.69 ± 0.01  |  actor_loss: -16.5966  cost_loss: 1.3591  q_loss: 29.8821  reward_max: 0.2890  reward_mean: -0.0118  reward_min: -1.5402  state_cost_loss: 1.3620  value_loss: 224096687537258496.0000
+Step:   180000  |  score: 0.69 ± 0.01  |  actor_loss: -7.7754  cost_loss: 1.3579  q_loss: 5.9106  reward_max: 0.3876  reward_mean: -0.0171  reward_min: -1.6581  state_cost_loss: 1.3585  value_loss: 331741059350528.0000
+Step:   190000  |  score: 0.69 ± 0.01  |  actor_loss: -15.5358  cost_loss: 1.3667  q_loss: 13.8294  reward_max: 0.4904  reward_mean: -0.0097  reward_min: -1.4824  state_cost_loss: 1.3664  value_loss: 67481113110511616.0000
+Step:   200000  |  score: 0.69 ± 0.01  |  actor_loss: -25.1616  cost_loss: 1.3658  q_loss: 10.2691  reward_max: 0.4633  reward_mean: -0.0012  reward_min: -0.7963  state_cost_loss: 1.3671  value_loss: 5108560896.0000
+Step:   210000  |  score: 0.70 ± 0.01  |  actor_loss: -8.1205  cost_loss: 1.3627  q_loss: 13.2759  reward_max: 0.6283  reward_mean: -0.0072  reward_min: -0.9026  state_cost_loss: 1.3634  value_loss: 26965518336.0000
+Step:   220000  |  score: 0.71 ± 0.01  |  actor_loss: -18.8772  cost_loss: 1.3659  q_loss: 12.2545  reward_max: 0.4440  reward_mean: -0.0013  reward_min: -0.6277  state_cost_loss: 1.3668  value_loss: 4079023554560.0000
+Step:   230000  |  score: 0.71 ± 0.01  |  actor_loss: -15.8956  cost_loss: 1.3656  q_loss: 8.9962  reward_max: 0.4297  reward_mean: 0.0027  reward_min: -0.6951  state_cost_loss: 1.3675  value_loss: 157674291200.0000
+Step:   240000  |  score: 0.70 ± 0.01  |  actor_loss: -21.1931  cost_loss: 1.3697  q_loss: 7.0516  reward_max: 0.3522  reward_mean: -0.0070  reward_min: -0.7410  state_cost_loss: 1.3697  value_loss: 138714447089762304.0000
+Step:   250000  |  score: 0.71 ± 0.00  |  actor_loss: -25.4555  cost_loss: 1.3651  q_loss: 8.9806  reward_max: 0.6023  reward_mean: -0.0020  reward_min: -0.7952  state_cost_loss: 1.3659  value_loss: 1094371311616.0000
+Step:   260000  |  score: 0.70 ± 0.01  |  actor_loss: -18.2713  cost_loss: 1.3594  q_loss: 15.4808  reward_max: 0.3266  reward_mean: -0.0108  reward_min: -0.7978  state_cost_loss: 1.3608  value_loss: 152910918844416.0000
+Step:   270000  |  score: 0.70 ± 0.01  |  actor_loss: -15.6377  cost_loss: 1.3671  q_loss: 2.9790  reward_max: 0.5156  reward_mean: 0.0099  reward_min: -0.8883  state_cost_loss: 1.3665  value_loss: 8396827262976.0000
+Step:   280000  |  score: 0.70 ± 0.01  |  actor_loss: -21.0629  cost_loss: 1.3657  q_loss: 3.5858  reward_max: 0.3597  reward_mean: -0.0036  reward_min: -1.3859  state_cost_loss: 1.3674  value_loss: 273756536832.0000
+Step:   290000  |  score: 0.70 ± 0.01  |  actor_loss: -21.2301  cost_loss: 1.3552  q_loss: 8.0700  reward_max: 0.4549  reward_mean: -0.0015  reward_min: -1.0516  state_cost_loss: 1.3564  value_loss: 22194647040.0000
+Step:   300000  |  score: 0.72 ± 0.01  |  actor_loss: -22.5903  cost_loss: 1.3657  q_loss: 344.5232  reward_max: 0.4342  reward_mean: -0.0159  reward_min: -1.3581  state_cost_loss: 1.3685  value_loss: 2444929792.0000
+Step:   310000  |  score: 0.70 ± 0.01  |  actor_loss: -14.0071  cost_loss: 1.3634  q_loss: 11.3245  reward_max: 0.6050  reward_mean: -0.0033  reward_min: -0.8221  state_cost_loss: 1.3639  value_loss: 79116278299623424.0000
+Step:   320000  |  score: 0.71 ± 0.01  |  actor_loss: -13.6020  cost_loss: 1.3589  q_loss: 154.5786  reward_max: 0.2892  reward_mean: -0.0004  reward_min: -0.5102  state_cost_loss: 1.3591  value_loss: 1301439412118224896.0000
+Step:   330000  |  score: 0.73 ± 0.01  |  actor_loss: -23.0228  cost_loss: 1.3690  q_loss: 9.2149  reward_max: 0.2722  reward_mean: -0.0029  reward_min: -0.5829  state_cost_loss: 1.3688  value_loss: 8591129761139392512.0000
+Step:   340000  |  score: 0.71 ± 0.01  |  actor_loss: -11.1963  cost_loss: 1.3564  q_loss: 7.8221  reward_max: 0.4635  reward_mean: -0.0123  reward_min: -1.1837  state_cost_loss: 1.3569  value_loss: 1852809936896.0000
+Step:   350000  |  score: 0.72 ± 0.01  |  actor_loss: -13.7396  cost_loss: 1.3650  q_loss: 48.9037  reward_max: 0.6328  reward_mean: -0.0082  reward_min: -1.8412  state_cost_loss: 1.3676  value_loss: 2689254043942912.0000
+Step:   360000  |  score: 0.69 ± 0.01  |  actor_loss: -15.0522  cost_loss: 1.3673  q_loss: 10.7069  reward_max: 0.8798  reward_mean: -0.0006  reward_min: -0.6325  state_cost_loss: 1.3665  value_loss: 6538060137234432.0000
+Step:   370000  |  score: 0.71 ± 0.01  |  actor_loss: -15.4708  cost_loss: 1.3577  q_loss: 234.3611  reward_max: 0.3849  reward_mean: 0.0007  reward_min: -0.8900  state_cost_loss: 1.3584  value_loss: 7774608031744.0000
+Step:   380000  |  score: 0.72 ± 0.01  |  actor_loss: -13.3495  cost_loss: 1.3539  q_loss: 12.2043  reward_max: 0.5114  reward_mean: -0.0079  reward_min: -1.2829  state_cost_loss: 1.3552  value_loss: 3353514344448.0000
+Step:   390000  |  score: 0.69 ± 0.01  |  actor_loss: -13.6362  cost_loss: 1.3686  q_loss: 8.6172  reward_max: 0.5507  reward_mean: -0.0134  reward_min: -1.4278  state_cost_loss: 1.3712  value_loss: 14660573584439640064.0000
+Step:   400000  |  score: 0.71 ± 0.01  |  actor_loss: -19.8679  cost_loss: 1.3617  q_loss: 4.2417  reward_max: 0.5141  reward_mean: -0.0071  reward_min: -1.1123  state_cost_loss: 1.3633  value_loss: 1496446271488.0000
+Step:   410000  |  score: 0.71 ± 0.01  |  actor_loss: -16.7396  cost_loss: 1.3649  q_loss: 5.7811  reward_max: 0.5750  reward_mean: 0.0037  reward_min: -1.1001  state_cost_loss: 1.3665  value_loss: 2978953582377697280.0000
+Step:   420000  |  score: 0.70 ± 0.01  |  actor_loss: -14.2815  cost_loss: 1.3584  q_loss: 329.8748  reward_max: 0.3525  reward_mean: -0.0044  reward_min: -0.5665  state_cost_loss: 1.3612  value_loss: 9953423568442228736.0000
+Step:   430000  |  score: 0.70 ± 0.01  |  actor_loss: -20.8472  cost_loss: 1.3632  q_loss: 258.1385  reward_max: 0.8705  reward_mean: 0.0049  reward_min: -0.5782  state_cost_loss: 1.3635  value_loss: 304360620032.0000
+Step:   440000  |  score: 5.31 ± 0.48  |  actor_loss: nan  cost_loss: 1.3534  q_loss: nan  reward_max: 0.6615  reward_mean: -0.0121  reward_min: -1.3419  state_cost_loss: 1.3601  value_loss: nan
+Step:   450000  |  score: 4.53 ± 0.38  |  actor_loss: nan  cost_loss: 1.3557  q_loss: nan  reward_max: 0.4601  reward_mean: -0.0025  reward_min: -1.1222  state_cost_loss: 1.3557  value_loss: nan
+Step:   460000  |  score: 6.02 ± 2.51  |  actor_loss: nan  cost_loss: 1.3645  q_loss: nan  reward_max: 0.4445  reward_mean: -0.0103  reward_min: -1.7930  state_cost_loss: 1.3666  value_loss: nan
+Step:   470000  |  score: 5.41 ± 0.89  |  actor_loss: nan  cost_loss: 1.3573  q_loss: nan  reward_max: 0.5849  reward_mean: -0.0108  reward_min: -1.3763  state_cost_loss: 1.3585  value_loss: nan
+Step:   480000  |  score: 5.32 ± 1.33  |  actor_loss: nan  cost_loss: 1.3541  q_loss: nan  reward_max: 0.4430  reward_mean: -0.0019  reward_min: -1.3401  state_cost_loss: 1.3560  value_loss: nan
+Step:   490000  |  score: 4.68 ± 0.62  |  actor_loss: nan  cost_loss: 1.3532  q_loss: nan  reward_max: 0.4330  reward_mean: -0.0034  reward_min: -1.2930  state_cost_loss: 1.3533  value_loss: nan
+Step:   500000  |  score: 4.75 ± 0.43  |  actor_loss: nan  cost_loss: 1.3685  q_loss: nan  reward_max: 0.4733  reward_mean: -0.0019  reward_min: -0.7175  state_cost_loss: 1.3680  value_loss: nan
+Step:   510000  |  score: 5.03 ± 0.45  |  actor_loss: nan  cost_loss: 1.3586  q_loss: nan  reward_max: 0.5481  reward_mean: 0.0007  reward_min: -1.2768  state_cost_loss: 1.3583  value_loss: nan
+Step:   520000  |  score: 4.95 ± 0.92  |  actor_loss: nan  cost_loss: 1.3485  q_loss: nan  reward_max: 0.5164  reward_mean: -0.0020  reward_min: -1.3895  state_cost_loss: 1.3496  value_loss: nan
+Step:   530000  |  score: 5.08 ± 0.65  |  actor_loss: nan  cost_loss: 1.3623  q_loss: nan  reward_max: 0.3235  reward_mean: -0.0076  reward_min: -0.7244  state_cost_loss: 1.3646  value_loss: nan
+Step:   540000  |  score: 5.14 ± 0.88  |  actor_loss: nan  cost_loss: 1.3656  q_loss: nan  reward_max: 0.4044  reward_mean: -0.0006  reward_min: -1.0857  state_cost_loss: 1.3665  value_loss: nan
+Step:   550000  |  score: 5.16 ± 0.78  |  actor_loss: nan  cost_loss: 1.3543  q_loss: nan  reward_max: 0.3846  reward_mean: -0.0051  reward_min: -0.9920  state_cost_loss: 1.3570  value_loss: nan
+Step:   560000  |  score: 5.28 ± 1.13  |  actor_loss: nan  cost_loss: 1.3676  q_loss: nan  reward_max: 0.4198  reward_mean: -0.0031  reward_min: -1.1339  state_cost_loss: 1.3705  value_loss: nan
+Step:   570000  |  score: 4.49 ± 0.36  |  actor_loss: nan  cost_loss: 1.3662  q_loss: nan  reward_max: 0.6748  reward_mean: -0.0020  reward_min: -0.6169  state_cost_loss: 1.3687  value_loss: nan
+Step:   580000  |  score: 5.59 ± 2.27  |  actor_loss: nan  cost_loss: 1.3591  q_loss: nan  reward_max: 0.6010  reward_mean: 0.0017  reward_min: -0.8625  state_cost_loss: 1.3587  value_loss: nan
+Step:   590000  |  score: 5.13 ± 1.14  |  actor_loss: nan  cost_loss: 1.3627  q_loss: nan  reward_max: 0.2759  reward_mean: -0.0029  reward_min: -0.6846  state_cost_loss: 1.3649  value_loss: nan
+Step:   600000  |  score: 6.14 ± 3.06  |  actor_loss: nan  cost_loss: 1.3656  q_loss: nan  reward_max: 0.3554  reward_mean: -0.0014  reward_min: -1.2519  state_cost_loss: 1.3661  value_loss: nan
+Step:   610000  |  score: 4.70 ± 0.66  |  actor_loss: nan  cost_loss: 1.3653  q_loss: nan  reward_max: 0.5383  reward_mean: -0.0036  reward_min: -0.9431  state_cost_loss: 1.3651  value_loss: nan
+Step:   620000  |  score: 5.38 ± 2.42  |  actor_loss: nan  cost_loss: 1.3575  q_loss: nan  reward_max: 0.6555  reward_mean: -0.0094  reward_min: -1.2002  state_cost_loss: 1.3595  value_loss: nan
+Step:   630000  |  score: 5.00 ± 0.93  |  actor_loss: nan  cost_loss: 1.3532  q_loss: nan  reward_max: 0.3833  reward_mean: -0.0150  reward_min: -1.4927  state_cost_loss: 1.3552  value_loss: nan
+Step:   640000  |  score: 5.23 ± 0.76  |  actor_loss: nan  cost_loss: 1.3625  q_loss: nan  reward_max: 0.5417  reward_mean: 0.0008  reward_min: -0.8115  state_cost_loss: 1.3608  value_loss: nan
+Step:   650000  |  score: 5.38 ± 1.30  |  actor_loss: nan  cost_loss: 1.3602  q_loss: nan  reward_max: 0.6646  reward_mean: -0.0073  reward_min: -1.0776  state_cost_loss: 1.3628  value_loss: nan
+Step:   660000  |  score: 5.04 ± 1.42  |  actor_loss: nan  cost_loss: 1.3626  q_loss: nan  reward_max: 0.5180  reward_mean: -0.0035  reward_min: -0.7681  state_cost_loss: 1.3657  value_loss: nan
+Step:   670000  |  score: 4.47 ± 0.48  |  actor_loss: nan  cost_loss: 1.3585  q_loss: nan  reward_max: 0.3619  reward_mean: -0.0031  reward_min: -0.9515  state_cost_loss: 1.3612  value_loss: nan
+Step:   680000  |  score: 5.42 ± 0.92  |  actor_loss: nan  cost_loss: 1.3648  q_loss: nan  reward_max: 0.4363  reward_mean: -0.0028  reward_min: -1.4922  state_cost_loss: 1.3666  value_loss: nan
+Step:   690000  |  score: 4.73 ± 0.49  |  actor_loss: nan  cost_loss: 1.3643  q_loss: nan  reward_max: 0.6202  reward_mean: -0.0080  reward_min: -1.7931  state_cost_loss: 1.3659  value_loss: nan
+Step:   700000  |  score: 4.98 ± 0.53  |  actor_loss: nan  cost_loss: 1.3622  q_loss: nan  reward_max: 0.4149  reward_mean: -0.0005  reward_min: -0.7426  state_cost_loss: 1.3626  value_loss: nan
+Step:   710000  |  score: 4.86 ± 0.75  |  actor_loss: nan  cost_loss: 1.3659  q_loss: nan  reward_max: 0.5954  reward_mean: -0.0041  reward_min: -0.5081  state_cost_loss: 1.3690  value_loss: nan
+Step:   720000  |  score: 5.12 ± 1.18  |  actor_loss: nan  cost_loss: 1.3583  q_loss: nan  reward_max: 0.2768  reward_mean: -0.0057  reward_min: -1.2905  state_cost_loss: 1.3599  value_loss: nan
+Step:   730000  |  score: 5.52 ± 1.14  |  actor_loss: nan  cost_loss: 1.3621  q_loss: nan  reward_max: 0.4808  reward_mean: -0.0060  reward_min: -0.9660  state_cost_loss: 1.3635  value_loss: nan
+Step:   740000  |  score: 5.50 ± 2.23  |  actor_loss: nan  cost_loss: 1.3658  q_loss: nan  reward_max: 0.4263  reward_mean: -0.0061  reward_min: -1.2677  state_cost_loss: 1.3701  value_loss: nan
+Step:   750000  |  score: 4.65 ± 0.43  |  actor_loss: nan  cost_loss: 1.3647  q_loss: nan  reward_max: 0.6175  reward_mean: 0.0012  reward_min: -1.0657  state_cost_loss: 1.3630  value_loss: nan
+Step:   760000  |  score: 5.14 ± 0.60  |  actor_loss: nan  cost_loss: 1.3529  q_loss: nan  reward_max: 0.5621  reward_mean: -0.0176  reward_min: -1.3315  state_cost_loss: 1.3551  value_loss: nan
+Step:   770000  |  score: 5.66 ± 2.59  |  actor_loss: nan  cost_loss: 1.3642  q_loss: nan  reward_max: 0.3745  reward_mean: -0.0128  reward_min: -1.8536  state_cost_loss: 1.3680  value_loss: nan
+Step:   780000  |  score: 4.54 ± 0.57  |  actor_loss: nan  cost_loss: 1.3536  q_loss: nan  reward_max: 0.5964  reward_mean: -0.0005  reward_min: -0.7176  state_cost_loss: 1.3535  value_loss: nan
+Step:   790000  |  score: 4.63 ± 0.51  |  actor_loss: nan  cost_loss: 1.3627  q_loss: nan  reward_max: 0.4734  reward_mean: -0.0009  reward_min: -0.9937  state_cost_loss: 1.3626  value_loss: nan
+Step:   800000  |  score: 5.21 ± 0.85  |  actor_loss: nan  cost_loss: 1.3686  q_loss: nan  reward_max: 0.3062  reward_mean: -0.0065  reward_min: -1.8639  state_cost_loss: 1.3713  value_loss: nan
+Step:   810000  |  score: 5.95 ± 2.91  |  actor_loss: nan  cost_loss: 1.3633  q_loss: nan  reward_max: 0.4992  reward_mean: 0.0014  reward_min: -0.9113  state_cost_loss: 1.3641  value_loss: nan
+Step:   820000  |  score: 4.76 ± 0.39  |  actor_loss: nan  cost_loss: 1.3650  q_loss: nan  reward_max: 0.9090  reward_mean: -0.0026  reward_min: -0.4271  state_cost_loss: 1.3656  value_loss: nan
+Step:   830000  |  score: 4.50 ± 0.50  |  actor_loss: nan  cost_loss: 1.3664  q_loss: nan  reward_max: 0.5213  reward_mean: -0.0054  reward_min: -0.8243  state_cost_loss: 1.3675  value_loss: nan
+Step:   840000  |  score: 5.39 ± 0.98  |  actor_loss: nan  cost_loss: 1.3662  q_loss: nan  reward_max: 0.5206  reward_mean: 0.0012  reward_min: -0.8632  state_cost_loss: 1.3668  value_loss: nan
+Step:   850000  |  score: 5.36 ± 0.87  |  actor_loss: nan  cost_loss: 1.3655  q_loss: nan  reward_max: 0.6215  reward_mean: -0.0075  reward_min: -1.0106  state_cost_loss: 1.3699  value_loss: nan
+Step:   860000  |  score: 5.67 ± 1.58  |  actor_loss: nan  cost_loss: 1.3670  q_loss: nan  reward_max: 0.2379  reward_mean: -0.0084  reward_min: -0.6953  state_cost_loss: 1.3692  value_loss: nan
+Step:   870000  |  score: 4.99 ± 0.51  |  actor_loss: nan  cost_loss: 1.3671  q_loss: nan  reward_max: 0.6357  reward_mean: -0.0013  reward_min: -0.5476  state_cost_loss: 1.3666  value_loss: nan
+Step:   880000  |  score: 4.72 ± 0.41  |  actor_loss: nan  cost_loss: 1.3706  q_loss: nan  reward_max: 0.5046  reward_mean: -0.0050  reward_min: -1.2072  state_cost_loss: 1.3723  value_loss: nan
+Step:   890000  |  score: 4.49 ± 0.52  |  actor_loss: nan  cost_loss: 1.3680  q_loss: nan  reward_max: 0.3160  reward_mean: -0.0039  reward_min: -1.8186  state_cost_loss: 1.3701  value_loss: nan
+Step:   900000  |  score: 5.82 ± 1.15  |  actor_loss: nan  cost_loss: 1.3557  q_loss: nan  reward_max: 0.4328  reward_mean: -0.0076  reward_min: -1.0396  state_cost_loss: 1.3577  value_loss: nan
+Step:   910000  |  score: 4.64 ± 0.91  |  actor_loss: nan  cost_loss: 1.3528  q_loss: nan  reward_max: 0.5922  reward_mean: -0.0064  reward_min: -0.9338  state_cost_loss: 1.3532  value_loss: nan
+Step:   920000  |  score: 6.04 ± 1.82  |  actor_loss: nan  cost_loss: 1.3644  q_loss: nan  reward_max: 0.6288  reward_mean: 0.0029  reward_min: -0.5026  state_cost_loss: 1.3652  value_loss: nan
+Step:   930000  |  score: 4.82 ± 0.90  |  actor_loss: nan  cost_loss: 1.3722  q_loss: nan  reward_max: 0.3840  reward_mean: -0.0008  reward_min: -0.8356  state_cost_loss: 1.3735  value_loss: nan
+Step:   940000  |  score: 4.97 ± 0.99  |  actor_loss: nan  cost_loss: 1.3677  q_loss: nan  reward_max: 0.3978  reward_mean: 0.0032  reward_min: -0.3594  state_cost_loss: 1.3677  value_loss: nan
+Step:   950000  |  score: 5.16 ± 0.61  |  actor_loss: nan  cost_loss: 1.3603  q_loss: nan  reward_max: 0.5686  reward_mean: 0.0004  reward_min: -1.3787  state_cost_loss: 1.3622  value_loss: nan
+Step:   960000  |  score: 5.49 ± 1.47  |  actor_loss: nan  cost_loss: 1.3535  q_loss: nan  reward_max: 0.5806  reward_mean: -0.0104  reward_min: -1.4308  state_cost_loss: 1.3568  value_loss: nan
+Step:   970000  |  score: 5.21 ± 1.42  |  actor_loss: nan  cost_loss: 1.3657  q_loss: nan  reward_max: 0.4223  reward_mean: -0.0036  reward_min: -0.8642  state_cost_loss: 1.3699  value_loss: nan
+Step:   980000  |  score: 5.73 ± 2.61  |  actor_loss: nan  cost_loss: 1.3638  q_loss: nan  reward_max: 0.3352  reward_mean: -0.0061  reward_min: -0.7860  state_cost_loss: 1.3646  value_loss: nan
+Step:   990000  |  score: 4.94 ± 0.67  |  actor_loss: nan  cost_loss: 1.3596  q_loss: nan  reward_max: 0.5090  reward_mean: -0.0102  reward_min: -2.0353  state_cost_loss: 1.3624  value_loss: nan
+Step:  1000000  |  score: 5.35 ± 0.58  |  actor_loss: nan  cost_loss: 1.3644  q_loss: nan  reward_max: 0.6243  reward_mean: -0.0064  reward_min: -1.0763  state_cost_loss: 1.3645  value_loss: nan
+Step:  1010000  |  score: 4.90 ± 0.39  |  actor_loss: nan  cost_loss: 1.3679  q_loss: nan  reward_max: 0.4306  reward_mean: -0.0013  reward_min: -0.8505  state_cost_loss: 1.3692  value_loss: nan
+Step:  1020000  |  score: 4.83 ± 0.81  |  actor_loss: nan  cost_loss: 1.3592  q_loss: nan  reward_max: 0.6814  reward_mean: 0.0019  reward_min: -1.0183  state_cost_loss: 1.3595  value_loss: nan
+Step:  1030000  |  score: 5.99 ± 2.63  |  actor_loss: nan  cost_loss: 1.3677  q_loss: nan  reward_max: 0.4965  reward_mean: -0.0029  reward_min: -1.0669  state_cost_loss: 1.3697  value_loss: nan
+Step:  1040000  |  score: 4.84 ± 0.53  |  actor_loss: nan  cost_loss: 1.3619  q_loss: nan  reward_max: 0.4230  reward_mean: -0.0030  reward_min: -1.0301  state_cost_loss: 1.3637  value_loss: nan
+Step:  1050000  |  score: 5.14 ± 0.90  |  actor_loss: nan  cost_loss: 1.3691  q_loss: nan  reward_max: 0.4501  reward_mean: -0.0054  reward_min: -1.1261  state_cost_loss: 1.3703  value_loss: nan
+Step:  1060000  |  score: 5.06 ± 0.67  |  actor_loss: nan  cost_loss: 1.3613  q_loss: nan  reward_max: 0.5833  reward_mean: -0.0002  reward_min: -0.8119  state_cost_loss: 1.3622  value_loss: nan
+Step:  1070000  |  score: 5.18 ± 0.72  |  actor_loss: nan  cost_loss: 1.3593  q_loss: nan  reward_max: 0.4956  reward_mean: -0.0027  reward_min: -0.4836  state_cost_loss: 1.3601  value_loss: nan
+Step:  1080000  |  score: 6.26 ± 1.70  |  actor_loss: nan  cost_loss: 1.3674  q_loss: nan  reward_max: 0.2499  reward_mean: -0.0147  reward_min: -1.3662  state_cost_loss: 1.3718  value_loss: nan
+Step:  1090000  |  score: 5.08 ± 0.62  |  actor_loss: nan  cost_loss: 1.3699  q_loss: nan  reward_max: 0.6654  reward_mean: -0.0035  reward_min: -1.0175  state_cost_loss: 1.3716  value_loss: nan
+Step:  1100000  |  score: 5.11 ± 1.27  |  actor_loss: nan  cost_loss: 1.3590  q_loss: nan  reward_max: 0.5561  reward_mean: -0.0022  reward_min: -0.8766  state_cost_loss: 1.3581  value_loss: nan
+Step:  1110000  |  score: 5.65 ± 1.56  |  actor_loss: nan  cost_loss: 1.3669  q_loss: nan  reward_max: 0.6380  reward_mean: 0.0004  reward_min: -1.2902  state_cost_loss: 1.3675  value_loss: nan
+Step:  1120000  |  score: 4.53 ± 0.85  |  actor_loss: nan  cost_loss: 1.3652  q_loss: nan  reward_max: 0.4025  reward_mean: 0.0018  reward_min: -0.9611  state_cost_loss: 1.3660  value_loss: nan
+Step:  1130000  |  score: 5.06 ± 0.59  |  actor_loss: nan  cost_loss: 1.3582  q_loss: nan  reward_max: 0.4275  reward_mean: -0.0055  reward_min: -1.4636  state_cost_loss: 1.3593  value_loss: nan
+Step:  1140000  |  score: 4.77 ± 0.46  |  actor_loss: nan  cost_loss: 1.3612  q_loss: nan  reward_max: 0.4538  reward_mean: -0.0045  reward_min: -1.6630  state_cost_loss: 1.3629  value_loss: nan
+Step:  1150000  |  score: 4.97 ± 0.77  |  actor_loss: nan  cost_loss: 1.3613  q_loss: nan  reward_max: 0.7398  reward_mean: -0.0092  reward_min: -0.9232  state_cost_loss: 1.3633  value_loss: nan
+Step:  1160000  |  score: 6.31 ± 2.59  |  actor_loss: nan  cost_loss: 1.3636  q_loss: nan  reward_max: 0.3043  reward_mean: -0.0058  reward_min: -0.6885  state_cost_loss: 1.3671  value_loss: nan
+Step:  1170000  |  score: 6.39 ± 2.79  |  actor_loss: nan  cost_loss: 1.3613  q_loss: nan  reward_max: 0.4167  reward_mean: -0.0068  reward_min: -1.3544  state_cost_loss: 1.3635  value_loss: nan
+Step:  1180000  |  score: 5.14 ± 0.53  |  actor_loss: nan  cost_loss: 1.3591  q_loss: nan  reward_max: 0.6802  reward_mean: -0.0045  reward_min: -1.3104  state_cost_loss: 1.3598  value_loss: nan
+Step:  1190000  |  score: 5.18 ± 0.68  |  actor_loss: nan  cost_loss: 1.3639  q_loss: nan  reward_max: 0.6097  reward_mean: -0.0054  reward_min: -1.4480  state_cost_loss: 1.3645  value_loss: nan
+Step:  1200000  |  score: 5.51 ± 1.01  |  actor_loss: nan  cost_loss: 1.3532  q_loss: nan  reward_max: 0.4159  reward_mean: -0.0042  reward_min: -1.7641  state_cost_loss: 1.3546  value_loss: nan
+Step:  1210000  |  score: 5.26 ± 0.71  |  actor_loss: nan  cost_loss: 1.3553  q_loss: nan  reward_max: 0.4893  reward_mean: -0.0034  reward_min: -0.6875  state_cost_loss: 1.3562  value_loss: nan
+Step:  1220000  |  score: 4.82 ± 0.66  |  actor_loss: nan  cost_loss: 1.3607  q_loss: nan  reward_max: 0.5456  reward_mean: -0.0066  reward_min: -1.6492  state_cost_loss: 1.3619  value_loss: nan
+Step:  1230000  |  score: 6.25 ± 2.59  |  actor_loss: nan  cost_loss: 1.3676  q_loss: nan  reward_max: 0.5884  reward_mean: 0.0002  reward_min: -0.7603  state_cost_loss: 1.3697  value_loss: nan
+Step:  1240000  |  score: 5.71 ± 2.10  |  actor_loss: nan  cost_loss: 1.3723  q_loss: nan  reward_max: 0.4094  reward_mean: -0.0017  reward_min: -0.7707  state_cost_loss: 1.3725  value_loss: nan
+Step:  1250000  |  score: 5.11 ± 0.85  |  actor_loss: nan  cost_loss: 1.3697  q_loss: nan  reward_max: 0.5669  reward_mean: -0.0009  reward_min: -1.0394  state_cost_loss: 1.3693  value_loss: nan
+Step:  1260000  |  score: 5.03 ± 0.46  |  actor_loss: nan  cost_loss: 1.3549  q_loss: nan  reward_max: 0.4368  reward_mean: -0.0039  reward_min: -0.7539  state_cost_loss: 1.3565  value_loss: nan
+Step:  1270000  |  score: 5.01 ± 0.46  |  actor_loss: nan  cost_loss: 1.3663  q_loss: nan  reward_max: 0.7023  reward_mean: 0.0032  reward_min: -0.9083  state_cost_loss: 1.3641  value_loss: nan
+Step:  1280000  |  score: 4.81 ± 0.96  |  actor_loss: nan  cost_loss: 1.3631  q_loss: nan  reward_max: 0.5572  reward_mean: -0.0089  reward_min: -1.2370  state_cost_loss: 1.3642  value_loss: nan
+Step:  1290000  |  score: 5.36 ± 0.97  |  actor_loss: nan  cost_loss: 1.3608  q_loss: nan  reward_max: 0.5609  reward_mean: -0.0019  reward_min: -1.2655  state_cost_loss: 1.3604  value_loss: nan
+Step:  1300000  |  score: 5.77 ± 1.57  |  actor_loss: nan  cost_loss: 1.3673  q_loss: nan  reward_max: 0.7104  reward_mean: 0.0030  reward_min: -1.2308  state_cost_loss: 1.3672  value_loss: nan
+Step:  1310000  |  score: 4.61 ± 0.46  |  actor_loss: nan  cost_loss: 1.3648  q_loss: nan  reward_max: 0.5034  reward_mean: -0.0050  reward_min: -1.6663  state_cost_loss: 1.3648  value_loss: nan
+Step:  1320000  |  score: 6.45 ± 2.62  |  actor_loss: nan  cost_loss: 1.3583  q_loss: nan  reward_max: 0.4013  reward_mean: -0.0070  reward_min: -1.3565  state_cost_loss: 1.3601  value_loss: nan
+Step:  1330000  |  score: 5.15 ± 0.56  |  actor_loss: nan  cost_loss: 1.3598  q_loss: nan  reward_max: 0.5781  reward_mean: -0.0035  reward_min: -1.4036  state_cost_loss: 1.3604  value_loss: nan
+Step:  1340000  |  score: 4.89 ± 0.77  |  actor_loss: nan  cost_loss: 1.3580  q_loss: nan  reward_max: 0.6852  reward_mean: -0.0000  reward_min: -0.7819  state_cost_loss: 1.3586  value_loss: nan
+Step:  1350000  |  score: 4.97 ± 1.12  |  actor_loss: nan  cost_loss: 1.3576  q_loss: nan  reward_max: 0.3632  reward_mean: -0.0078  reward_min: -1.6878  state_cost_loss: 1.3597  value_loss: nan
+Step:  1360000  |  score: 4.95 ± 0.62  |  actor_loss: nan  cost_loss: 1.3740  q_loss: nan  reward_max: 0.3008  reward_mean: -0.0042  reward_min: -1.1467  state_cost_loss: 1.3758  value_loss: nan
+Step:  1370000  |  score: 5.57 ± 1.70  |  actor_loss: nan  cost_loss: 1.3637  q_loss: nan  reward_max: 0.4644  reward_mean: -0.0011  reward_min: -0.8685  state_cost_loss: 1.3647  value_loss: nan
+Step:  1380000  |  score: 4.61 ± 0.71  |  actor_loss: nan  cost_loss: 1.3647  q_loss: nan  reward_max: 0.4088  reward_mean: 0.0017  reward_min: -0.6500  state_cost_loss: 1.3661  value_loss: nan
+Step:  1390000  |  score: 5.24 ± 0.57  |  actor_loss: nan  cost_loss: 1.3583  q_loss: nan  reward_max: 0.7441  reward_mean: -0.0026  reward_min: -1.1340  state_cost_loss: 1.3597  value_loss: nan
+Step:  1400000  |  score: 5.37 ± 1.14  |  actor_loss: nan  cost_loss: 1.3706  q_loss: nan  reward_max: 0.5703  reward_mean: 0.0011  reward_min: -1.4990  state_cost_loss: 1.3716  value_loss: nan
+Step:  1410000  |  score: 4.74 ± 0.35  |  actor_loss: nan  cost_loss: 1.3639  q_loss: nan  reward_max: 0.3795  reward_mean: -0.0073  reward_min: -1.8079  state_cost_loss: 1.3663  value_loss: nan
+Step:  1420000  |  score: 5.63 ± 1.16  |  actor_loss: nan  cost_loss: 1.3544  q_loss: nan  reward_max: 0.6296  reward_mean: 0.0017  reward_min: -0.4816  state_cost_loss: 1.3550  value_loss: nan
+Step:  1430000  |  score: 5.13 ± 1.27  |  actor_loss: nan  cost_loss: 1.3654  q_loss: nan  reward_max: 0.3678  reward_mean: -0.0022  reward_min: -0.7961  state_cost_loss: 1.3664  value_loss: nan
+Step:  1440000  |  score: 4.86 ± 0.48  |  actor_loss: nan  cost_loss: 1.3623  q_loss: nan  reward_max: 0.5058  reward_mean: -0.0048  reward_min: -0.8240  state_cost_loss: 1.3615  value_loss: nan
+Step:  1450000  |  score: 5.51 ± 1.20  |  actor_loss: nan  cost_loss: 1.3599  q_loss: nan  reward_max: 0.4023  reward_mean: -0.0010  reward_min: -0.8875  state_cost_loss: 1.3594  value_loss: nan
+Step:  1460000  |  score: 5.23 ± 0.56  |  actor_loss: nan  cost_loss: 1.3654  q_loss: nan  reward_max: 0.7624  reward_mean: 0.0006  reward_min: -1.0527  state_cost_loss: 1.3666  value_loss: nan
+Step:  1470000  |  score: 4.94 ± 0.60  |  actor_loss: nan  cost_loss: 1.3608  q_loss: nan  reward_max: 0.5588  reward_mean: 0.0001  reward_min: -0.8588  state_cost_loss: 1.3622  value_loss: nan
+Step:  1480000  |  score: 6.40 ± 2.33  |  actor_loss: nan  cost_loss: 1.3624  q_loss: nan  reward_max: 0.7014  reward_mean: -0.0052  reward_min: -1.8499  state_cost_loss: 1.3647  value_loss: nan
+Step:  1490000  |  score: 5.08 ± 1.10  |  actor_loss: nan  cost_loss: 1.3648  q_loss: nan  reward_max: 0.4593  reward_mean: -0.0096  reward_min: -1.7099  state_cost_loss: 1.3675  value_loss: nan
+Step:  1500000  |  score: 6.40 ± 3.38  |  actor_loss: nan  cost_loss: 1.3536  q_loss: nan  reward_max: 0.6142  reward_mean: -0.0097  reward_min: -1.6500  state_cost_loss: 1.3576  value_loss: nan
+Step:  1510000  |  score: 5.06 ± 0.84  |  actor_loss: nan  cost_loss: 1.3591  q_loss: nan  reward_max: 0.2310  reward_mean: -0.0048  reward_min: -0.6965  state_cost_loss: 1.3599  value_loss: nan
+Step:  1520000  |  score: 4.81 ± 0.25  |  actor_loss: nan  cost_loss: 1.3641  q_loss: nan  reward_max: 0.6710  reward_mean: 0.0030  reward_min: -0.4418  state_cost_loss: 1.3640  value_loss: nan
+Step:  1530000  |  score: 4.69 ± 0.71  |  actor_loss: nan  cost_loss: 1.3654  q_loss: nan  reward_max: 0.5861  reward_mean: -0.0066  reward_min: -1.9949  state_cost_loss: 1.3682  value_loss: nan
+Step:  1540000  |  score: 4.66 ± 0.84  |  actor_loss: nan  cost_loss: 1.3622  q_loss: nan  reward_max: 0.6024  reward_mean: -0.0047  reward_min: -0.7239  state_cost_loss: 1.3643  value_loss: nan
+Step:  1550000  |  score: 5.16 ± 0.67  |  actor_loss: nan  cost_loss: 1.3618  q_loss: nan  reward_max: 0.2417  reward_mean: -0.0100  reward_min: -1.7825  state_cost_loss: 1.3650  value_loss: nan
+Step:  1560000  |  score: 4.45 ± 0.64  |  actor_loss: nan  cost_loss: 1.3566  q_loss: nan  reward_max: 0.5844  reward_mean: -0.0015  reward_min: -1.0396  state_cost_loss: 1.3564  value_loss: nan
+Step:  1570000  |  score: 5.19 ± 0.72  |  actor_loss: nan  cost_loss: 1.3566  q_loss: nan  reward_max: 0.4841  reward_mean: -0.0063  reward_min: -1.0017  state_cost_loss: 1.3576  value_loss: nan
+Step:  1580000  |  score: 5.10 ± 0.55  |  actor_loss: nan  cost_loss: 1.3617  q_loss: nan  reward_max: 0.6391  reward_mean: -0.0133  reward_min: -1.6257  state_cost_loss: 1.3641  value_loss: nan
+Step:  1590000  |  score: 5.42 ± 1.51  |  actor_loss: nan  cost_loss: 1.3671  q_loss: nan  reward_max: 0.5155  reward_mean: 0.0006  reward_min: -0.6548  state_cost_loss: 1.3679  value_loss: nan
+Step:  1600000  |  score: 5.54 ± 1.04  |  actor_loss: nan  cost_loss: 1.3676  q_loss: nan  reward_max: 0.3950  reward_mean: -0.0057  reward_min: -0.9190  state_cost_loss: 1.3685  value_loss: nan
+Step:  1610000  |  score: 6.20 ± 2.55  |  actor_loss: nan  cost_loss: 1.3584  q_loss: nan  reward_max: 0.3418  reward_mean: -0.0101  reward_min: -1.0234  state_cost_loss: 1.3587  value_loss: nan
+Step:  1620000  |  score: 5.73 ± 2.44  |  actor_loss: nan  cost_loss: 1.3604  q_loss: nan  reward_max: 0.6182  reward_mean: -0.0079  reward_min: -1.4383  state_cost_loss: 1.3635  value_loss: nan
+Step:  1630000  |  score: 5.86 ± 1.85  |  actor_loss: nan  cost_loss: 1.3646  q_loss: nan  reward_max: 0.4884  reward_mean: -0.0062  reward_min: -1.1400  state_cost_loss: 1.3668  value_loss: nan
+Step:  1640000  |  score: 5.04 ± 0.78  |  actor_loss: nan  cost_loss: 1.3675  q_loss: nan  reward_max: 0.5732  reward_mean: -0.0017  reward_min: -1.2900  state_cost_loss: 1.3672  value_loss: nan
+Step:  1650000  |  score: 4.85 ± 0.63  |  actor_loss: nan  cost_loss: 1.3708  q_loss: nan  reward_max: 0.6554  reward_mean: 0.0032  reward_min: -0.5185  state_cost_loss: 1.3699  value_loss: nan
+Step:  1660000  |  score: 4.86 ± 0.62  |  actor_loss: nan  cost_loss: 1.3617  q_loss: nan  reward_max: 0.5698  reward_mean: -0.0057  reward_min: -1.1519  state_cost_loss: 1.3630  value_loss: nan
+Step:  1670000  |  score: 5.19 ± 0.80  |  actor_loss: nan  cost_loss: 1.3620  q_loss: nan  reward_max: 0.3725  reward_mean: -0.0054  reward_min: -0.7891  state_cost_loss: 1.3629  value_loss: nan
+Step:  1680000  |  score: 5.16 ± 0.90  |  actor_loss: nan  cost_loss: 1.3713  q_loss: nan  reward_max: 0.6817  reward_mean: 0.0051  reward_min: -0.7186  state_cost_loss: 1.3691  value_loss: nan
+Step:  1690000  |  score: 4.43 ± 0.30  |  actor_loss: nan  cost_loss: 1.3632  q_loss: nan  reward_max: 0.7387  reward_mean: -0.0026  reward_min: -1.5417  state_cost_loss: 1.3620  value_loss: nan
+Step:  1700000  |  score: 4.92 ± 1.20  |  actor_loss: nan  cost_loss: 1.3668  q_loss: nan  reward_max: 0.5860  reward_mean: 0.0017  reward_min: -0.8403  state_cost_loss: 1.3690  value_loss: nan
+Step:  1710000  |  score: 4.35 ± 0.34  |  actor_loss: nan  cost_loss: 1.3641  q_loss: nan  reward_max: 0.3431  reward_mean: 0.0001  reward_min: -0.8064  state_cost_loss: 1.3649  value_loss: nan
+Step:  1720000  |  score: 5.32 ± 0.65  |  actor_loss: nan  cost_loss: 1.3681  q_loss: nan  reward_max: 0.7302  reward_mean: -0.0064  reward_min: -1.2217  state_cost_loss: 1.3704  value_loss: nan
+Step:  1730000  |  score: 4.64 ± 0.88  |  actor_loss: nan  cost_loss: 1.3624  q_loss: nan  reward_max: 0.5651  reward_mean: -0.0012  reward_min: -1.6213  state_cost_loss: 1.3621  value_loss: nan
+Step:  1740000  |  score: 4.97 ± 0.50  |  actor_loss: nan  cost_loss: 1.3752  q_loss: nan  reward_max: 0.1563  reward_mean: -0.0028  reward_min: -1.4032  state_cost_loss: 1.3751  value_loss: nan
+Step:  1750000  |  score: 5.73 ± 2.87  |  actor_loss: nan  cost_loss: 1.3676  q_loss: nan  reward_max: 0.5535  reward_mean: -0.0080  reward_min: -1.1079  state_cost_loss: 1.3694  value_loss: nan
+Step:  1760000  |  score: 4.91 ± 0.50  |  actor_loss: nan  cost_loss: 1.3652  q_loss: nan  reward_max: 0.3815  reward_mean: -0.0081  reward_min: -1.2280  state_cost_loss: 1.3671  value_loss: nan
+Step:  1770000  |  score: 5.67 ± 2.52  |  actor_loss: nan  cost_loss: 1.3662  q_loss: nan  reward_max: 0.5501  reward_mean: -0.0074  reward_min: -1.2512  state_cost_loss: 1.3667  value_loss: nan
+Step:  1780000  |  score: 5.82 ± 1.56  |  actor_loss: nan  cost_loss: 1.3636  q_loss: nan  reward_max: 0.6408  reward_mean: 0.0001  reward_min: -0.7507  state_cost_loss: 1.3630  value_loss: nan
+Step:  1790000  |  score: 5.98 ± 1.77  |  actor_loss: nan  cost_loss: 1.3634  q_loss: nan  reward_max: 0.5506  reward_mean: -0.0032  reward_min: -0.5795  state_cost_loss: 1.3656  value_loss: nan
+Step:  1800000  |  score: 4.82 ± 0.36  |  actor_loss: nan  cost_loss: 1.3668  q_loss: nan  reward_max: 0.6705  reward_mean: -0.0053  reward_min: -1.1279  state_cost_loss: 1.3698  value_loss: nan
+Step:  1810000  |  score: 5.35 ± 0.76  |  actor_loss: nan  cost_loss: 1.3569  q_loss: nan  reward_max: 0.3667  reward_mean: -0.0069  reward_min: -1.1675  state_cost_loss: 1.3601  value_loss: nan
+Step:  1820000  |  score: 5.16 ± 0.80  |  actor_loss: nan  cost_loss: 1.3619  q_loss: nan  reward_max: 0.5081  reward_mean: -0.0035  reward_min: -1.1267  state_cost_loss: 1.3628  value_loss: nan
+Step:  1830000  |  score: 5.61 ± 1.42  |  actor_loss: nan  cost_loss: 1.3608  q_loss: nan  reward_max: 0.6142  reward_mean: -0.0047  reward_min: -1.3517  state_cost_loss: 1.3623  value_loss: nan
+Step:  1840000  |  score: 4.62 ± 0.50  |  actor_loss: nan  cost_loss: 1.3631  q_loss: nan  reward_max: 0.6061  reward_mean: 0.0020  reward_min: -0.2969  state_cost_loss: 1.3639  value_loss: nan
+Step:  1850000  |  score: 4.74 ± 0.40  |  actor_loss: nan  cost_loss: 1.3605  q_loss: nan  reward_max: 0.4760  reward_mean: -0.0015  reward_min: -1.3580  state_cost_loss: 1.3617  value_loss: nan
+Step:  1860000  |  score: 5.02 ± 0.79  |  actor_loss: nan  cost_loss: 1.3647  q_loss: nan  reward_max: 0.6249  reward_mean: 0.0011  reward_min: -0.6833  state_cost_loss: 1.3629  value_loss: nan
+Step:  1870000  |  score: 5.59 ± 0.79  |  actor_loss: nan  cost_loss: 1.3606  q_loss: nan  reward_max: 0.6852  reward_mean: 0.0009  reward_min: -1.3219  state_cost_loss: 1.3622  value_loss: nan
+Step:  1880000  |  score: 6.13 ± 2.71  |  actor_loss: nan  cost_loss: 1.3652  q_loss: nan  reward_max: 0.3337  reward_mean: 0.0007  reward_min: -0.7704  state_cost_loss: 1.3665  value_loss: nan
+Step:  1890000  |  score: 4.72 ± 0.54  |  actor_loss: nan  cost_loss: 1.3645  q_loss: nan  reward_max: 0.7963  reward_mean: -0.0030  reward_min: -0.7104  state_cost_loss: 1.3657  value_loss: nan
+Step:  1900000  |  score: 5.75 ± 1.00  |  actor_loss: nan  cost_loss: 1.3659  q_loss: nan  reward_max: 0.4541  reward_mean: -0.0051  reward_min: -1.1987  state_cost_loss: 1.3667  value_loss: nan
+Step:  1910000  |  score: 4.67 ± 0.45  |  actor_loss: nan  cost_loss: 1.3659  q_loss: nan  reward_max: 0.2885  reward_mean: -0.0074  reward_min: -0.8875  state_cost_loss: 1.3676  value_loss: nan
+Step:  1920000  |  score: 6.15 ± 2.62  |  actor_loss: nan  cost_loss: 1.3615  q_loss: nan  reward_max: 0.5337  reward_mean: -0.0077  reward_min: -0.8113  state_cost_loss: 1.3641  value_loss: nan
+Step:  1930000  |  score: 6.11 ± 2.33  |  actor_loss: nan  cost_loss: 1.3587  q_loss: nan  reward_max: 0.5340  reward_mean: -0.0017  reward_min: -0.7889  state_cost_loss: 1.3605  value_loss: nan
+Step:  1940000  |  score: 5.14 ± 0.90  |  actor_loss: nan  cost_loss: 1.3663  q_loss: nan  reward_max: 0.3333  reward_mean: 0.0020  reward_min: -0.6754  state_cost_loss: 1.3659  value_loss: nan
+Step:  1950000  |  score: 4.86 ± 0.58  |  actor_loss: nan  cost_loss: 1.3653  q_loss: nan  reward_max: 0.4570  reward_mean: -0.0080  reward_min: -1.5403  state_cost_loss: 1.3683  value_loss: nan
+Step:  1960000  |  score: 4.60 ± 0.40  |  actor_loss: nan  cost_loss: 1.3703  q_loss: nan  reward_max: 0.6236  reward_mean: -0.0024  reward_min: -0.7633  state_cost_loss: 1.3714  value_loss: nan
+Step:  1970000  |  score: 4.63 ± 0.65  |  actor_loss: nan  cost_loss: 1.3709  q_loss: nan  reward_max: 0.3931  reward_mean: -0.0024  reward_min: -1.0859  state_cost_loss: 1.3717  value_loss: nan
+Step:  1980000  |  score: 7.04 ± 3.17  |  actor_loss: nan  cost_loss: 1.3605  q_loss: nan  reward_max: 0.3374  reward_mean: -0.0028  reward_min: -0.9799  state_cost_loss: 1.3623  value_loss: nan
+Step:  1990000  |  score: 5.67 ± 1.51  |  actor_loss: nan  cost_loss: 1.3546  q_loss: nan  reward_max: 0.7414  reward_mean: 0.0068  reward_min: -0.6747  state_cost_loss: 1.3545  value_loss: nan
+Step:  2000000  |  score: 5.39 ± 0.83  |  actor_loss: nan  cost_loss: 1.3658  q_loss: nan  reward_max: 0.3733  reward_mean: 0.0002  reward_min: -1.1840  state_cost_loss: 1.3669  value_loss: nan
+Final evaluation (13 iterations)...
+Final score: 4.98 ± 0.85
+wandb: WARNING Symlinked 1 file into the W&B run directory; call wandb.save again to sync new files.
+wandb: uploading history steps 197-198, summary, console lines 210-211; updating run metadata
+wandb: uploading history steps 197-198, summary, console lines 210-211
+wandb: uploading history steps 197-198, summary, console lines 210-211; uploading final_returns/cdemodice_hopper-expert-v2_2026-03-18_14-08-45.npz; uploading output.log; uploading wandb-summary.json; uploading config.yaml
+wandb: uploading history steps 197-198, summary, console lines 210-211; uploading final_returns/cdemodice_hopper-expert-v2_2026-03-18_14-08-45.npz; uploading output.log; uploading wandb-summary.json
+wandb: uploading history steps 197-198, summary, console lines 210-211
+wandb: uploading history steps 199-199, summary, console lines 212-215
+wandb: 
+wandb: Run history:
+wandb:  actor_loss ▆██▅▄▃▃▄▄▁▁▃▄▄▂▃▄▃▁▄▂▃▂▁▂▃▂▂▃▃▁▄▃▃▃▃▃▂▃▂
+wandb:   cost_loss █▆▅▃▆▆▆▅▃▅▅▃▄▃▁▆▆█▅▆▄▅▄▅▄▅▇▄▅▁▅▅▇▆▅▅▆▄▆▆
+wandb: num_updates ▁▁▁▁▁▂▂▂▂▂▃▃▃▃▃▄▄▄▄▄▅▅▅▅▅▅▅▅▆▆▆▆▆▆▆▇▇▇██
+wandb:      q_loss ▁▂▂▁▂▂▁▂▃▁▁▂▁▃▁▂▁▁▁▁▁▁▁▁▁▁▁█▁▄▁▁▂▁▆▁▁▁▁▆
+wandb:      return ▁▁▁▁▁▁▁▁▇▇▆▆▇▆▇▆▇▆▆▇▇▆▆██▆▆▇▆█▇▇▆▆▆▇▆▆▆▆
+wandb:  reward_max ▆▁▄▂▄▃▃▃▆▂▅▃▃▅▅▅▄▆▄▅▅▃▃▃▅▅▃▄▅▆▄▄▃▅▅▅▆█▂▃
+wandb: reward_mean ▁▃▆▆▃▃▄▆▆▄▄▇▄▅▄▆▆▆▆▇▅▅▄▇▇▆▅▅▅▅█▆▅▆▄▇▇▇▆▇
+wandb:  reward_min ▇▇▇▇▆▇▄█▅▆▄▇▆▅█▇█▄▆▂▂▆▁▅▄▇▃▂▇▆▁▃▆█▅▆▃▄▅▅
+wandb:       score ▁▁▁▁▁▁▁▁▁▆▆▆▆▆▅▅▅▆▇▇▆▆▆▆▆▇▆▆▆▆▆▆▆▆▆▅▆▇▆█
+wandb:   score_std ▁▁▁▁▁▁▁▁▁▁▃▂▂█▂▂▃▃▂▂▂▂▃▇▂▂▇▆▃▂▂▂▂▃▂▅▂▃▇▄
+wandb:          +2 ...
+wandb: 
+wandb: Run summary:
+wandb:       cost_loss 1.36585
+wandb:     num_updates 2000000
+wandb:          return 155.0393
+wandb:      reward_max 0.37333
+wandb:     reward_mean 0.00022
+wandb:      reward_min -1.18403
+wandb:           score 5.38662
+wandb:       score_std 0.82947
+wandb: state_cost_loss 1.36687
+wandb: 
+wandb: 🚀 View run cdemodice_hopper_M4_s2 at: https://wandb.ai/wsk208/DemoDICE/runs/z4g6u6gf
+wandb: ⭐️ View project at: https://wandb.ai/wsk208/DemoDICE
+wandb: Synced 5 W&B file(s), 0 media file(s), 0 artifact file(s) and 1 other file(s)
+wandb: Find logs at: ./wandb/run-20260318_134313-z4g6u6gf/logs

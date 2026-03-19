@@ -1,0 +1,273 @@
+Warning: All of online environments libraries in D4RL have been moved ]8;;https://github.com/Farama-Foundation/Gymnasium\Gymnasium]8;;\, ]8;;https://github.com/Farama-Foundation/MiniGrid\MiniGrid]8;;\ and ]8;;https://github.com/Farama-Foundation/Gymnasium-Robotics\Gymnasium-Robotics]8;;\, and all offline datasets in D4RL have been moved to ]8;;https://github.com/Farama-Foundation/Minari\Minari]8;;\.
+These new versions include large bug fixes, new versions of Python, and are where all new development will continue. Please upgrade these libraries as soon as you're able to do so.
+If you'd like to read more about the story behind this switch, please check out ]8;;https://farama.org/Announcing-Minari\this blog post]8;;\.
+Gym has been unmaintained since 2022 and does not support NumPy 2.0 amongst other critical functionality.
+Please upgrade to Gymnasium, the maintained drop-in replacement of Gym, or contact the authors of your software and request that they upgrade.
+See the migration guide at https://gymnasium.farama.org/introduction/migration_guide/ for additional information.
+/opt/venv/lib/python3.10/site-packages/Cython/Distutils/old_build_ext.py:15: DeprecationWarning: dep_util is Deprecated. Use functions from setuptools instead.
+  from distutils.dep_util import newer, newer_group
+<frozen importlib._bootstrap>:283: DeprecationWarning: the load_module() method is deprecated and slated for removal in Python 3.12; use exec_module() instead
+pybullet build time: Jan 29 2025 23:16:28
+wandb: [wandb.login()] Loaded credentials for https://api.wandb.ai from /root/.netrc.
+wandb: Currently logged in as: wsk208 to https://api.wandb.ai. Use `wandb login --relogin` to force relogin
+/opt/venv/lib/python3.10/site-packages/wandb/analytics/sentry.py:268: DeprecationWarning: Read the `app_url` setting from the appropriate Settings object.
+  app_url = wandb.util.app_url(tags["base_url"])  # type: ignore[index]
+/opt/venv/lib/python3.10/site-packages/wandb/analytics/sentry.py:279: DeprecationWarning: The `Scope.user` setter is deprecated in favor of `Scope.set_user()`.
+  self.scope.user = {"email": email}
+wandb: setting up run 6u36aso8
+/opt/venv/lib/python3.10/site-packages/wandb/analytics/sentry.py:268: DeprecationWarning: Read the `app_url` setting from the appropriate Settings object.
+  app_url = wandb.util.app_url(tags["base_url"])  # type: ignore[index]
+/opt/venv/lib/python3.10/site-packages/wandb/analytics/sentry.py:279: DeprecationWarning: The `Scope.user` setter is deprecated in favor of `Scope.set_user()`.
+  self.scope.user = {"email": email}
+wandb: Tracking run with wandb version 0.25.1
+wandb: Run data is saved locally in /app/wandb/run-20260318_143747-6u36aso8
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run demodice_walker2d_M2_s0
+wandb: ⭐️ View project at https://wandb.ai/wsk208/DemoDICE
+wandb: 🚀 View run at https://wandb.ai/wsk208/DemoDICE/runs/6u36aso8
+/opt/venv/lib/python3.10/site-packages/gym/spaces/box.py:84: UserWarning: [33mWARN: Box bound precision lowered by casting to float32[0m
+  logger.warn(f"Box bound precision lowered by casting to {self.dtype}")
+load datafile:   0%|          | 0/21 [00:00<?, ?it/s]load datafile:   5%|▍         | 1/21 [00:00<00:03,  5.67it/s]load datafile:  14%|█▍        | 3/21 [00:00<00:03,  5.09it/s]load datafile:  19%|█▉        | 4/21 [00:00<00:04,  3.93it/s]load datafile:  81%|████████  | 17/21 [00:01<00:00, 15.44it/s]load datafile:  90%|█████████ | 19/21 [00:01<00:00, 10.85it/s]load datafile: 100%|██████████| 21/21 [00:01<00:00, 11.14it/s]
+Expert  :  999000 transitions  (walker2d-expert-v2, 400 traj)
+load datafile:   0%|          | 0/9 [00:00<?, ?it/s]load datafile:  11%|█         | 1/9 [00:00<00:01,  6.65it/s]load datafile:  33%|███▎      | 3/9 [00:00<00:01,  5.57it/s]load datafile:  44%|████▍     | 4/9 [00:00<00:01,  4.14it/s]load datafile:  56%|█████▌    | 5/9 [00:01<00:01,  3.25it/s]load datafile:  67%|██████▋   | 6/9 [00:01<00:01,  2.85it/s]load datafile: 100%|██████████| 9/9 [00:01<00:00,  5.00it/s]
+Imperfect:    8083 transitions  (walker2d-random-v2, 400 traj)
+Union   : 1007083 transitions total
+/root/.local/share/uv/python/cpython-3.10-linux-x86_64-gnu/lib/python3.10/multiprocessing/popen_fork.py:66: RuntimeWarning: os.fork() was called. os.fork() is incompatible with multithreaded code, and JAX is multithreaded, so this will likely lead to a deadlock.
+  self.pid = os.fork()
+/opt/venv/lib/python3.10/site-packages/tensorflow_probability/python/internal/backend/jax/ops.py:681: DeprecationWarning: jax.interpreters.xla.pytype_aval_mappings is deprecated.
+  jax.interpreters.xla.pytype_aval_mappings[onp.ndarray])
+/opt/venv/lib/python3.10/site-packages/gym/spaces/box.py:84: UserWarning: [33mWARN: Box bound precision lowered by casting to float32[0m
+  logger.warn(f"Box bound precision lowered by casting to {self.dtype}")
+Step:    10000  |  score: 7.28 ± 1.63  |  actor_loss: -3.2928  cost_loss: 1.3805  nu_loss: 11.5428
+Step:    20000  |  score: 12.63 ± 6.75  |  actor_loss: -3.2978  cost_loss: 1.3750  nu_loss: 11.3790
+Step:    30000  |  score: 26.28 ± 11.53  |  actor_loss: -2.6527  cost_loss: 1.3733  nu_loss: 11.5494
+Step:    40000  |  score: 26.75 ± 15.65  |  actor_loss: -3.6170  cost_loss: 1.3778  nu_loss: 11.2229
+Step:    50000  |  score: 24.86 ± 14.53  |  actor_loss: -3.7754  cost_loss: 1.3703  nu_loss: 11.2991
+Step:    60000  |  score: 28.82 ± 15.75  |  actor_loss: -3.8365  cost_loss: 1.3806  nu_loss: 10.8976
+Step:    70000  |  score: 22.46 ± 22.56  |  actor_loss: -3.6069  cost_loss: 1.3768  nu_loss: 11.1250
+Step:    80000  |  score: 60.31 ± 29.93  |  actor_loss: -3.9216  cost_loss: 1.3745  nu_loss: 11.0462
+Step:    90000  |  score: 71.87 ± 32.67  |  actor_loss: -3.5751  cost_loss: 1.3790  nu_loss: 11.2510
+Step:   100000  |  score: 75.08 ± 17.33  |  actor_loss: -3.9364  cost_loss: 1.3757  nu_loss: 10.9653
+Step:   110000  |  score: 85.13 ± 30.18  |  actor_loss: -4.0033  cost_loss: 1.3770  nu_loss: 10.8230
+Step:   120000  |  score: 42.49 ± 32.56  |  actor_loss: -4.4041  cost_loss: 1.3765  nu_loss: 10.9979
+Step:   130000  |  score: 81.15 ± 26.23  |  actor_loss: -3.7533  cost_loss: 1.3784  nu_loss: 11.0666
+Step:   140000  |  score: 66.58 ± 35.32  |  actor_loss: -4.0765  cost_loss: 1.3805  nu_loss: 10.9487
+Step:   150000  |  score: 95.17 ± 20.52  |  actor_loss: -3.9315  cost_loss: 1.3774  nu_loss: 11.2020
+Step:   160000  |  score: 76.38 ± 41.82  |  actor_loss: -3.6768  cost_loss: 1.3799  nu_loss: 11.0282
+Step:   170000  |  score: 107.45 ± 0.34  |  actor_loss: -3.5664  cost_loss: 1.3782  nu_loss: 11.1390
+Step:   180000  |  score: 97.33 ± 11.82  |  actor_loss: -3.9002  cost_loss: 1.3785  nu_loss: 10.9089
+Step:   190000  |  score: 104.72 ± 4.31  |  actor_loss: -3.9426  cost_loss: 1.3801  nu_loss: 11.0452
+Step:   200000  |  score: 83.36 ± 40.63  |  actor_loss: -4.0742  cost_loss: 1.3788  nu_loss: 10.9642
+Step:   210000  |  score: 96.29 ± 28.67  |  actor_loss: -4.0199  cost_loss: 1.3798  nu_loss: 10.8928
+Step:   220000  |  score: 97.96 ± 22.97  |  actor_loss: -4.2228  cost_loss: 1.3764  nu_loss: 10.9523
+Step:   230000  |  score: 106.89 ± 1.06  |  actor_loss: -4.3601  cost_loss: 1.3813  nu_loss: 10.8293
+Step:   240000  |  score: 102.12 ± 11.62  |  actor_loss: -3.7023  cost_loss: 1.3782  nu_loss: 11.0044
+Step:   250000  |  score: 96.60 ± 25.91  |  actor_loss: -4.0369  cost_loss: 1.3760  nu_loss: 10.9016
+Step:   260000  |  score: 105.79 ± 0.84  |  actor_loss: -4.3121  cost_loss: 1.3796  nu_loss: 11.0922
+Step:   270000  |  score: 98.75 ± 14.03  |  actor_loss: -3.7392  cost_loss: 1.3771  nu_loss: 10.7177
+Step:   280000  |  score: 106.48 ± 1.10  |  actor_loss: -4.2069  cost_loss: 1.3764  nu_loss: 11.0900
+Step:   290000  |  score: 106.56 ± 0.88  |  actor_loss: -3.9949  cost_loss: 1.3766  nu_loss: 10.8338
+Step:   300000  |  score: 102.62 ± 12.37  |  actor_loss: -3.7528  cost_loss: 1.3778  nu_loss: 11.0529
+Step:   310000  |  score: 106.92 ± 1.31  |  actor_loss: -3.4290  cost_loss: 1.3791  nu_loss: 10.9158
+Step:   320000  |  score: 86.72 ± 36.31  |  actor_loss: -4.2287  cost_loss: 1.3734  nu_loss: 10.9964
+Step:   330000  |  score: 106.57 ± 0.63  |  actor_loss: -3.7266  cost_loss: 1.3758  nu_loss: 10.8362
+Step:   340000  |  score: 94.71 ± 31.63  |  actor_loss: -3.7352  cost_loss: 1.3810  nu_loss: 10.8456
+Step:   350000  |  score: 103.18 ± 8.79  |  actor_loss: -3.7886  cost_loss: 1.3750  nu_loss: 10.6855
+Step:   360000  |  score: 107.15 ± 0.65  |  actor_loss: -3.4782  cost_loss: 1.3774  nu_loss: 10.7675
+Step:   370000  |  score: 76.39 ± 39.93  |  actor_loss: -4.3728  cost_loss: 1.3763  nu_loss: 10.9635
+Step:   380000  |  score: 107.01 ± 0.90  |  actor_loss: -4.0445  cost_loss: 1.3769  nu_loss: 10.7727
+Step:   390000  |  score: 100.01 ± 16.82  |  actor_loss: -3.9587  cost_loss: 1.3800  nu_loss: 10.9311
+Step:   400000  |  score: 80.50 ± 37.37  |  actor_loss: -3.7695  cost_loss: 1.3776  nu_loss: 11.1369
+Step:   410000  |  score: 91.26 ± 29.68  |  actor_loss: -3.8611  cost_loss: 1.3775  nu_loss: 10.8708
+Step:   420000  |  score: 96.07 ± 29.07  |  actor_loss: -4.1064  cost_loss: 1.3736  nu_loss: 10.9239
+Step:   430000  |  score: 106.81 ± 1.08  |  actor_loss: -3.2952  cost_loss: 1.3760  nu_loss: 11.1684
+Step:   440000  |  score: 105.13 ± 4.49  |  actor_loss: -3.6121  cost_loss: 1.3779  nu_loss: 10.8428
+Step:   450000  |  score: 106.66 ± 0.66  |  actor_loss: -4.2048  cost_loss: 1.3833  nu_loss: 11.0209
+Step:   460000  |  score: 107.22 ± 0.69  |  actor_loss: -4.2207  cost_loss: 1.3716  nu_loss: 10.9591
+Step:   470000  |  score: 97.02 ± 28.31  |  actor_loss: -3.9441  cost_loss: 1.3770  nu_loss: 10.9110
+Step:   480000  |  score: 106.03 ± 1.42  |  actor_loss: -3.9454  cost_loss: 1.3817  nu_loss: 11.0312
+Step:   490000  |  score: 103.03 ± 11.33  |  actor_loss: -3.9644  cost_loss: 1.3748  nu_loss: 10.6679
+Step:   500000  |  score: 106.49 ± 1.04  |  actor_loss: -4.0997  cost_loss: 1.3776  nu_loss: 10.6307
+Step:   510000  |  score: 96.45 ± 27.13  |  actor_loss: -3.9550  cost_loss: 1.3765  nu_loss: 10.7916
+Step:   520000  |  score: 96.73 ± 25.67  |  actor_loss: -3.8260  cost_loss: 1.3783  nu_loss: 10.9178
+Step:   530000  |  score: 106.63 ± 0.73  |  actor_loss: -4.1157  cost_loss: 1.3769  nu_loss: 10.8123
+Step:   540000  |  score: 106.46 ± 0.69  |  actor_loss: -4.2656  cost_loss: 1.3793  nu_loss: 11.1630
+Step:   550000  |  score: 101.14 ± 12.45  |  actor_loss: -4.1755  cost_loss: 1.3779  nu_loss: 10.7461
+Step:   560000  |  score: 107.34 ± 0.51  |  actor_loss: -3.8985  cost_loss: 1.3779  nu_loss: 10.7611
+Step:   570000  |  score: 99.27 ± 19.73  |  actor_loss: -3.5107  cost_loss: 1.3784  nu_loss: 11.0090
+Step:   580000  |  score: 106.65 ± 1.40  |  actor_loss: -3.2654  cost_loss: 1.3775  nu_loss: 10.7704
+Step:   590000  |  score: 106.09 ± 0.75  |  actor_loss: -4.8806  cost_loss: 1.3757  nu_loss: 10.6184
+Step:   600000  |  score: 106.87 ± 0.66  |  actor_loss: -4.7727  cost_loss: 1.3801  nu_loss: 10.6928
+Step:   610000  |  score: 94.72 ± 31.17  |  actor_loss: -3.5849  cost_loss: 1.3693  nu_loss: 10.8249
+Step:   620000  |  score: 106.29 ± 0.43  |  actor_loss: -4.1025  cost_loss: 1.3782  nu_loss: 10.9450
+Step:   630000  |  score: 107.12 ± 0.65  |  actor_loss: -4.2186  cost_loss: 1.3742  nu_loss: 11.0774
+Step:   640000  |  score: 106.54 ± 1.17  |  actor_loss: -3.9486  cost_loss: 1.3792  nu_loss: 10.8891
+Step:   650000  |  score: 84.28 ± 38.34  |  actor_loss: -3.7904  cost_loss: 1.3773  nu_loss: 11.1099
+Step:   660000  |  score: 107.09 ± 0.69  |  actor_loss: -3.5626  cost_loss: 1.3750  nu_loss: 10.7833
+Step:   670000  |  score: 107.02 ± 1.00  |  actor_loss: -4.3527  cost_loss: 1.3789  nu_loss: 10.8717
+Step:   680000  |  score: 107.00 ± 0.65  |  actor_loss: -4.2790  cost_loss: 1.3793  nu_loss: 10.7341
+Step:   690000  |  score: 100.94 ± 17.56  |  actor_loss: -4.2946  cost_loss: 1.3756  nu_loss: 10.8163
+Step:   700000  |  score: 106.44 ± 0.73  |  actor_loss: -4.5289  cost_loss: 1.3800  nu_loss: 10.7647
+Step:   710000  |  score: 107.26 ± 0.76  |  actor_loss: -3.9225  cost_loss: 1.3786  nu_loss: 10.9027
+Step:   720000  |  score: 107.11 ± 0.45  |  actor_loss: -4.5440  cost_loss: 1.3813  nu_loss: 10.8158
+Step:   730000  |  score: 106.95 ± 0.62  |  actor_loss: -4.0734  cost_loss: 1.3778  nu_loss: 10.5838
+Step:   740000  |  score: 107.13 ± 1.05  |  actor_loss: -4.2669  cost_loss: 1.3782  nu_loss: 10.7472
+Step:   750000  |  score: 107.43 ± 1.14  |  actor_loss: -4.1039  cost_loss: 1.3788  nu_loss: 10.8151
+Step:   760000  |  score: 95.51 ± 31.28  |  actor_loss: -3.9053  cost_loss: 1.3800  nu_loss: 11.1751
+Step:   770000  |  score: 106.95 ± 1.25  |  actor_loss: -3.6829  cost_loss: 1.3746  nu_loss: 10.8436
+Step:   780000  |  score: 95.04 ± 31.52  |  actor_loss: -4.2857  cost_loss: 1.3815  nu_loss: 10.7509
+Step:   790000  |  score: 96.08 ± 29.42  |  actor_loss: -3.4884  cost_loss: 1.3720  nu_loss: 10.6929
+Step:   800000  |  score: 96.05 ± 28.28  |  actor_loss: -4.1758  cost_loss: 1.3767  nu_loss: 10.6765
+Step:   810000  |  score: 107.35 ± 0.64  |  actor_loss: -3.7057  cost_loss: 1.3730  nu_loss: 10.7188
+Step:   820000  |  score: 106.39 ± 1.07  |  actor_loss: -4.2495  cost_loss: 1.3791  nu_loss: 10.9746
+Step:   830000  |  score: 106.20 ± 0.52  |  actor_loss: -4.4609  cost_loss: 1.3782  nu_loss: 10.8138
+Step:   840000  |  score: 101.78 ± 13.40  |  actor_loss: -4.4167  cost_loss: 1.3782  nu_loss: 10.8035
+Step:   850000  |  score: 95.48 ± 29.75  |  actor_loss: -4.1120  cost_loss: 1.3813  nu_loss: 10.9827
+Step:   860000  |  score: 101.66 ± 15.46  |  actor_loss: -4.0405  cost_loss: 1.3744  nu_loss: 10.9958
+Step:   870000  |  score: 103.77 ± 7.96  |  actor_loss: -3.8340  cost_loss: 1.3807  nu_loss: 10.7740
+Step:   880000  |  score: 107.80 ± 0.55  |  actor_loss: -4.4649  cost_loss: 1.3816  nu_loss: 11.1127
+Step:   890000  |  score: 106.75 ± 0.84  |  actor_loss: -3.5571  cost_loss: 1.3755  nu_loss: 11.1393
+Step:   900000  |  score: 101.16 ± 15.54  |  actor_loss: -3.9488  cost_loss: 1.3783  nu_loss: 11.0940
+Step:   910000  |  score: 105.50 ± 1.06  |  actor_loss: -4.2932  cost_loss: 1.3789  nu_loss: 10.7021
+Step:   920000  |  score: 71.43 ± 45.15  |  actor_loss: -3.7273  cost_loss: 1.3770  nu_loss: 10.7140
+Step:   930000  |  score: 106.71 ± 0.78  |  actor_loss: -4.6822  cost_loss: 1.3756  nu_loss: 10.8098
+Step:   940000  |  score: 107.54 ± 0.57  |  actor_loss: -4.2797  cost_loss: 1.3798  nu_loss: 10.9083
+Step:   950000  |  score: 95.95 ± 27.61  |  actor_loss: -4.0521  cost_loss: 1.3795  nu_loss: 11.0207
+Step:   960000  |  score: 99.33 ± 19.95  |  actor_loss: -3.9169  cost_loss: 1.3781  nu_loss: 11.0245
+Step:   970000  |  score: 95.27 ± 31.80  |  actor_loss: -4.1890  cost_loss: 1.3809  nu_loss: 11.0319
+Step:   980000  |  score: 106.48 ± 1.21  |  actor_loss: -3.9052  cost_loss: 1.3789  nu_loss: 10.9179
+Step:   990000  |  score: 106.25 ± 1.01  |  actor_loss: -3.2727  cost_loss: 1.3757  nu_loss: 10.8139
+Step:  1000000  |  score: 107.14 ± 0.33  |  actor_loss: -4.4610  cost_loss: 1.3692  nu_loss: 10.7891
+Step:  1010000  |  score: 106.87 ± 1.42  |  actor_loss: -3.7890  cost_loss: 1.3770  nu_loss: 10.7593
+Step:  1020000  |  score: 94.70 ± 31.85  |  actor_loss: -3.7122  cost_loss: 1.3764  nu_loss: 10.8175
+Step:  1030000  |  score: 107.20 ± 0.83  |  actor_loss: -4.0813  cost_loss: 1.3778  nu_loss: 10.6466
+Step:  1040000  |  score: 107.14 ± 0.76  |  actor_loss: -4.0629  cost_loss: 1.3786  nu_loss: 10.8985
+Step:  1050000  |  score: 98.62 ± 21.74  |  actor_loss: -4.7257  cost_loss: 1.3746  nu_loss: 10.7550
+Step:  1060000  |  score: 103.91 ± 9.19  |  actor_loss: -3.9532  cost_loss: 1.3688  nu_loss: 10.8496
+Step:  1070000  |  score: 107.27 ± 0.70  |  actor_loss: -3.8186  cost_loss: 1.3769  nu_loss: 10.9870
+Step:  1080000  |  score: 106.91 ± 0.51  |  actor_loss: -4.4635  cost_loss: 1.3804  nu_loss: 10.6998
+Step:  1090000  |  score: 95.87 ± 28.47  |  actor_loss: -4.1678  cost_loss: 1.3730  nu_loss: 10.9578
+Step:  1100000  |  score: 94.61 ± 32.00  |  actor_loss: -4.2396  cost_loss: 1.3748  nu_loss: 10.6040
+Step:  1110000  |  score: 107.05 ± 1.22  |  actor_loss: -4.3615  cost_loss: 1.3755  nu_loss: 10.9008
+Step:  1120000  |  score: 106.50 ± 1.18  |  actor_loss: -4.4449  cost_loss: 1.3777  nu_loss: 10.7640
+Step:  1130000  |  score: 100.53 ± 17.54  |  actor_loss: -4.1259  cost_loss: 1.3794  nu_loss: 11.0826
+Step:  1140000  |  score: 106.64 ± 1.49  |  actor_loss: -3.9823  cost_loss: 1.3799  nu_loss: 10.8368
+Step:  1150000  |  score: 106.70 ± 1.06  |  actor_loss: -3.9515  cost_loss: 1.3743  nu_loss: 10.9780
+Step:  1160000  |  score: 106.96 ± 1.12  |  actor_loss: -4.5904  cost_loss: 1.3777  nu_loss: 10.8281
+Step:  1170000  |  score: 106.80 ± 0.89  |  actor_loss: -3.3652  cost_loss: 1.3806  nu_loss: 11.0698
+Step:  1180000  |  score: 96.63 ± 27.43  |  actor_loss: -4.1442  cost_loss: 1.3671  nu_loss: 10.7352
+Step:  1190000  |  score: 100.82 ± 16.74  |  actor_loss: -3.7501  cost_loss: 1.3752  nu_loss: 10.8920
+Step:  1200000  |  score: 106.66 ± 0.85  |  actor_loss: -3.8691  cost_loss: 1.3749  nu_loss: 10.8110
+Step:  1210000  |  score: 85.60 ± 35.73  |  actor_loss: -4.2037  cost_loss: 1.3798  nu_loss: 10.8793
+Step:  1220000  |  score: 105.82 ± 1.17  |  actor_loss: -4.2775  cost_loss: 1.3782  nu_loss: 10.5882
+Step:  1230000  |  score: 107.00 ± 1.23  |  actor_loss: -3.9864  cost_loss: 1.3769  nu_loss: 10.7383
+Step:  1240000  |  score: 108.13 ± 0.58  |  actor_loss: -4.0440  cost_loss: 1.3725  nu_loss: 10.6045
+Step:  1250000  |  score: 99.59 ± 19.66  |  actor_loss: -3.7789  cost_loss: 1.3782  nu_loss: 10.9718
+Step:  1260000  |  score: 106.50 ± 0.85  |  actor_loss: -3.8485  cost_loss: 1.3788  nu_loss: 10.9880
+Step:  1270000  |  score: 105.08 ± 5.01  |  actor_loss: -4.2652  cost_loss: 1.3764  nu_loss: 10.8779
+Step:  1280000  |  score: 106.13 ± 3.27  |  actor_loss: -4.1666  cost_loss: 1.3772  nu_loss: 10.9254
+Step:  1290000  |  score: 106.25 ± 0.81  |  actor_loss: -4.4149  cost_loss: 1.3801  nu_loss: 11.1624
+Step:  1300000  |  score: 106.61 ± 0.78  |  actor_loss: -4.4915  cost_loss: 1.3773  nu_loss: 10.9914
+Step:  1310000  |  score: 97.19 ± 26.44  |  actor_loss: -4.0699  cost_loss: 1.3778  nu_loss: 10.7879
+Step:  1320000  |  score: 106.95 ± 1.59  |  actor_loss: -3.8675  cost_loss: 1.3804  nu_loss: 11.0357
+Step:  1330000  |  score: 96.90 ± 25.04  |  actor_loss: -4.1398  cost_loss: 1.3811  nu_loss: 11.0886
+Step:  1340000  |  score: 107.85 ± 0.90  |  actor_loss: -4.3692  cost_loss: 1.3810  nu_loss: 10.5640
+Step:  1350000  |  score: 99.19 ± 21.23  |  actor_loss: -4.1897  cost_loss: 1.3781  nu_loss: 10.9607
+Step:  1360000  |  score: 96.71 ± 27.30  |  actor_loss: -4.1539  cost_loss: 1.3815  nu_loss: 10.9020
+Step:  1370000  |  score: 106.93 ± 1.28  |  actor_loss: -4.5877  cost_loss: 1.3777  nu_loss: 10.6250
+Step:  1380000  |  score: 107.66 ± 0.74  |  actor_loss: -4.0063  cost_loss: 1.3811  nu_loss: 10.8547
+Step:  1390000  |  score: 106.77 ± 0.95  |  actor_loss: -4.1796  cost_loss: 1.3786  nu_loss: 10.9312
+Step:  1400000  |  score: 106.85 ± 1.18  |  actor_loss: -4.1903  cost_loss: 1.3749  nu_loss: 10.9219
+Step:  1410000  |  score: 107.21 ± 0.49  |  actor_loss: -3.9111  cost_loss: 1.3736  nu_loss: 10.9558
+Step:  1420000  |  score: 95.14 ± 31.00  |  actor_loss: -4.2082  cost_loss: 1.3742  nu_loss: 10.7337
+Step:  1430000  |  score: 105.93 ± 0.79  |  actor_loss: -4.0640  cost_loss: 1.3765  nu_loss: 11.1374
+Step:  1440000  |  score: 107.07 ± 0.85  |  actor_loss: -3.9424  cost_loss: 1.3813  nu_loss: 10.8971
+Step:  1450000  |  score: 107.57 ± 0.44  |  actor_loss: -4.4276  cost_loss: 1.3781  nu_loss: 10.8416
+Step:  1460000  |  score: 107.38 ± 0.68  |  actor_loss: -4.1364  cost_loss: 1.3793  nu_loss: 10.7149
+Step:  1470000  |  score: 106.65 ± 1.14  |  actor_loss: -4.0367  cost_loss: 1.3786  nu_loss: 11.0095
+Step:  1480000  |  score: 106.89 ± 0.76  |  actor_loss: -3.9364  cost_loss: 1.3775  nu_loss: 10.9023
+Step:  1490000  |  score: 107.05 ± 1.55  |  actor_loss: -4.2044  cost_loss: 1.3771  nu_loss: 10.9059
+Step:  1500000  |  score: 99.31 ± 20.42  |  actor_loss: -4.5334  cost_loss: 1.3792  nu_loss: 10.7518
+Step:  1510000  |  score: 106.80 ± 0.85  |  actor_loss: -3.8818  cost_loss: 1.3775  nu_loss: 10.9337
+Step:  1520000  |  score: 93.73 ± 23.90  |  actor_loss: -4.3624  cost_loss: 1.3795  nu_loss: 10.8061
+Step:  1530000  |  score: 85.75 ± 37.11  |  actor_loss: -3.7084  cost_loss: 1.3726  nu_loss: 10.8419
+Step:  1540000  |  score: 103.91 ± 7.03  |  actor_loss: -4.6963  cost_loss: 1.3778  nu_loss: 10.8387
+Step:  1550000  |  score: 107.00 ± 0.83  |  actor_loss: -4.2629  cost_loss: 1.3808  nu_loss: 10.7968
+Step:  1560000  |  score: 107.72 ± 0.54  |  actor_loss: -3.8359  cost_loss: 1.3698  nu_loss: 10.7348
+Step:  1570000  |  score: 106.75 ± 0.90  |  actor_loss: -4.3957  cost_loss: 1.3749  nu_loss: 11.0556
+Step:  1580000  |  score: 101.90 ± 12.93  |  actor_loss: -4.1099  cost_loss: 1.3785  nu_loss: 10.8832
+Step:  1590000  |  score: 105.35 ± 5.64  |  actor_loss: -4.0562  cost_loss: 1.3711  nu_loss: 10.6094
+Step:  1600000  |  score: 107.55 ± 0.63  |  actor_loss: -4.3852  cost_loss: 1.3762  nu_loss: 10.8464
+Step:  1610000  |  score: 107.78 ± 0.59  |  actor_loss: -4.4990  cost_loss: 1.3723  nu_loss: 10.7771
+Step:  1620000  |  score: 96.26 ± 28.46  |  actor_loss: -3.8412  cost_loss: 1.3771  nu_loss: 10.9155
+Step:  1630000  |  score: 106.91 ± 0.95  |  actor_loss: -4.5358  cost_loss: 1.3767  nu_loss: 10.9814
+Step:  1640000  |  score: 103.02 ± 10.64  |  actor_loss: -4.1532  cost_loss: 1.3746  nu_loss: 10.8736
+Step:  1650000  |  score: 103.52 ± 8.62  |  actor_loss: -4.3886  cost_loss: 1.3738  nu_loss: 10.8436
+Step:  1660000  |  score: 103.41 ± 9.94  |  actor_loss: -4.5743  cost_loss: 1.3673  nu_loss: 10.8267
+Step:  1670000  |  score: 91.30 ± 30.77  |  actor_loss: -3.8779  cost_loss: 1.3741  nu_loss: 11.0763
+Step:  1680000  |  score: 107.21 ± 0.94  |  actor_loss: -4.1226  cost_loss: 1.3742  nu_loss: 10.7160
+Step:  1690000  |  score: 106.31 ± 0.74  |  actor_loss: -4.2782  cost_loss: 1.3780  nu_loss: 10.8853
+Step:  1700000  |  score: 106.69 ± 0.62  |  actor_loss: -4.4486  cost_loss: 1.3772  nu_loss: 10.6497
+Step:  1710000  |  score: 107.05 ± 0.70  |  actor_loss: -3.9255  cost_loss: 1.3795  nu_loss: 10.7607
+Step:  1720000  |  score: 104.14 ± 8.58  |  actor_loss: -3.9992  cost_loss: 1.3808  nu_loss: 10.8162
+Step:  1730000  |  score: 107.20 ± 0.68  |  actor_loss: -4.3970  cost_loss: 1.3774  nu_loss: 10.8188
+Step:  1740000  |  score: 106.63 ± 0.87  |  actor_loss: -4.4164  cost_loss: 1.3778  nu_loss: 10.5726
+Step:  1750000  |  score: 106.30 ± 1.44  |  actor_loss: -4.3608  cost_loss: 1.3732  nu_loss: 10.6438
+Step:  1760000  |  score: 107.99 ± 0.67  |  actor_loss: -3.9742  cost_loss: 1.3758  nu_loss: 10.7466
+Step:  1770000  |  score: 107.14 ± 1.44  |  actor_loss: -3.9755  cost_loss: 1.3771  nu_loss: 10.7654
+Step:  1780000  |  score: 95.73 ± 32.10  |  actor_loss: -4.2620  cost_loss: 1.3788  nu_loss: 10.7890
+Step:  1790000  |  score: 97.55 ± 24.92  |  actor_loss: -4.1082  cost_loss: 1.3802  nu_loss: 10.7983
+Step:  1800000  |  score: 106.88 ± 0.76  |  actor_loss: -4.1694  cost_loss: 1.3764  nu_loss: 10.7617
+Step:  1810000  |  score: 102.04 ± 12.59  |  actor_loss: -4.6657  cost_loss: 1.3788  nu_loss: 10.6872
+Step:  1820000  |  score: 95.80 ± 29.24  |  actor_loss: -3.9824  cost_loss: 1.3744  nu_loss: 10.7356
+Step:  1830000  |  score: 107.04 ± 0.55  |  actor_loss: -4.2405  cost_loss: 1.3781  nu_loss: 11.0687
+Step:  1840000  |  score: 106.44 ± 1.42  |  actor_loss: -4.2371  cost_loss: 1.3725  nu_loss: 10.8532
+Step:  1850000  |  score: 107.16 ± 0.86  |  actor_loss: -3.8735  cost_loss: 1.3777  nu_loss: 10.7764
+Step:  1860000  |  score: 107.16 ± 0.54  |  actor_loss: -4.1917  cost_loss: 1.3795  nu_loss: 10.7815
+Step:  1870000  |  score: 106.36 ± 1.47  |  actor_loss: -4.4952  cost_loss: 1.3800  nu_loss: 10.5674
+E0318 15:03:28.465578  849617 hlo_lexer.cc:443] Failed to parse int literal: 891738707481229234940
+Step:  1880000  |  score: 106.91 ± 0.86  |  actor_loss: -4.0274  cost_loss: 1.3774  nu_loss: 10.9222
+Step:  1890000  |  score: 106.85 ± 1.04  |  actor_loss: -4.0756  cost_loss: 1.3812  nu_loss: 10.9568
+Step:  1900000  |  score: 103.62 ± 8.48  |  actor_loss: -3.8007  cost_loss: 1.3739  nu_loss: 10.6755
+Step:  1910000  |  score: 107.18 ± 0.67  |  actor_loss: -4.1850  cost_loss: 1.3783  nu_loss: 10.8019
+Step:  1920000  |  score: 95.66 ± 30.31  |  actor_loss: -3.6824  cost_loss: 1.3809  nu_loss: 10.9756
+Step:  1930000  |  score: 106.49 ± 1.02  |  actor_loss: -4.0120  cost_loss: 1.3745  nu_loss: 10.7009
+Step:  1940000  |  score: 96.21 ± 26.84  |  actor_loss: -3.9768  cost_loss: 1.3720  nu_loss: 10.9655
+Step:  1950000  |  score: 106.32 ± 1.00  |  actor_loss: -4.5094  cost_loss: 1.3770  nu_loss: 10.7646
+Step:  1960000  |  score: 107.30 ± 0.70  |  actor_loss: -4.1578  cost_loss: 1.3744  nu_loss: 10.8825
+Step:  1970000  |  score: 106.68 ± 0.61  |  actor_loss: -4.3003  cost_loss: 1.3771  nu_loss: 11.0205
+Step:  1980000  |  score: 106.98 ± 0.53  |  actor_loss: -4.1513  cost_loss: 1.3784  nu_loss: 10.8710
+Step:  1990000  |  score: 107.35 ± 0.54  |  actor_loss: -4.6093  cost_loss: 1.3774  nu_loss: 10.8614
+Step:  2000000  |  score: 107.05 ± 0.76  |  actor_loss: -4.6159  cost_loss: 1.3802  nu_loss: 11.0474
+Final evaluation (13 iterations)...
+Final score: 105.20 ± 14.08
+wandb: WARNING Symlinked 1 file into the W&B run directory; call wandb.save again to sync new files.
+wandb: uploading data; updating run metadata
+wandb: uploading data
+wandb: uploading data; uploading final_returns/demodice_walker2d-expert-v2_2026-03-18_15-05-42.npz; uploading output.log; uploading wandb-summary.json; uploading config.yaml
+wandb: uploading data; uploading final_returns/demodice_walker2d-expert-v2_2026-03-18_15-05-42.npz; uploading output.log
+wandb: uploading data
+wandb: uploading summary, console lines 214-215
+wandb: 
+wandb: Run history:
+wandb:  actor_loss ▇▆▅▆▇▇▃▆▆▅▁█▇▅▄▇▄▇▄▅▆▁▆▆▆▄▄▄▄▅▇▂▅▃▄▆▆▄▄▇
+wandb:   cost_loss █▇▆▆▇▇▆▆▅▆▅▇▇█▆█▇▂▆▆▆▅▅▇▆▆▇▆▇▆▂▅▁█▇▄▆▇█▆
+wandb:     nu_loss █▆▃▄▂▄▃▄▂▄▃▁▂▃▂▂▃▄▁▂▄▄▂▁▄▄▂▃▃▄▃▃▄▄▃▂▂▁▂▂
+wandb: num_updates ▁▁▁▁▂▂▂▂▃▃▃▃▃▃▄▄▄▄▄▄▅▅▅▅▅▅▅▅▆▆▆▆▆▇▇▇▇▇██
+wandb:      return ▁▅▅▇██▇▇▅█▇▇████▇▇▇▇██▇█▇█▇▆██████▇█▇███
+wandb:       score ▁▂▁▆▅██▇██▇███▆▇█▇▇▇█▇▇█▇██████████████▇
+wandb:   score_std ▁▂▅▄█▄▁▁▁▁▁▁▄▁▁▆▁▁▁▆▁▁▁▁▆▁▁▂▆▁▁▁▁▁▁▁▅▁▁▁
+wandb: 
+wandb: Run summary:
+wandb:  actor_loss -4.61594
+wandb:   cost_loss 1.38022
+wandb:     nu_loss 11.04735
+wandb: num_updates 2000000
+wandb:      return 4915.85372
+wandb:       score 107.04807
+wandb:   score_std 0.76112
+wandb: 
+wandb: 🚀 View run demodice_walker2d_M2_s0 at: https://wandb.ai/wsk208/DemoDICE/runs/6u36aso8
+wandb: ⭐️ View project at: https://wandb.ai/wsk208/DemoDICE
+wandb: Synced 5 W&B file(s), 0 media file(s), 0 artifact file(s) and 1 other file(s)
+wandb: Find logs at: ./wandb/run-20260318_143747-6u36aso8/logs

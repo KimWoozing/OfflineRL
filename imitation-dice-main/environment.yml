@@ -1,0 +1,25 @@
+name: imitation-dice
+channels:
+- menpo  # for osmesa
+dependencies:
+- python=3.7
+- matplotlib
+- tqdm
+- patchelf
+- pip
+- cffi
+- cython
+- lockfile
+- pip:
+  - tensorflow-gan==2.0.0
+  - tensorflow==2.5.1
+  - tensorflow-probability==0.13.0
+  - numpy==1.19.5
+  - gym==0.17.3
+  - pyglib==0.1
+  - scipy
+  - mujoco-py==2.1.2.14
+  - tf-agents==0.6.0
+  - wandb
+  # - Box2D  # for LunarLander
+  # - box2d-py  # for LunarLander
